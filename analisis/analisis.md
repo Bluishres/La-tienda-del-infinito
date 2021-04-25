@@ -1121,32 +1121,35 @@
         <td>
             <b>Descripción:</b>
         </td>
-        <td>.</td>
+        <td>El cliente/administrador crea un foro.</td>
     </tr>
     <tr>
         <td>
             <b>Actores:</b>
         </td>    
-        <td></td>  
+        <td>Cliente/administrador</td>  
     </tr>  
     <tr>  
         <td>
             <b>Precondiciones:</b>
         </td>  
-        <td>.</td>  
+        <td>Haber iniciado sesión.</td>  
     </tr>    
     <tr>  
         <td>
             <b>Curso normal:</b>
         </td>  
-        <td>1.
+        <td>1. En la ventana de foros, el cliente hace clic en crear foro.
+            <br>2. El sistema muestra una nueva ventana con campos a rellenar.
+            <br>3. El cliente rellena los campos necesarios y hace clic en crear.
+            <br>4. El foro es creado correctamente.
         </td>  
     </tr> 
     <tr>  
         <td>
             <b>Postcondiciones:</b>
         </td>  
-        <td> 
+        <td> El cliente/administrador crea correctamente un foro.
         </td>
         </td>  
     </tr>  
@@ -1154,10 +1157,11 @@
         <td>
             <b>Alternativas/Excepciones:</b>
         </td>  
-        <td>
+        <td>4. El sistema notifica al cliente/administrador que hay algun campo no valido.
         </td>
     </tr> 
 </table>
+
 
 <br>
 
@@ -1184,32 +1188,35 @@
         <td>
             <b>Descripción:</b>
         </td>
-        <td>.</td>
+        <td>El cliente/administrador accede a un foro ya creado previamente.</td>
     </tr>
     <tr>
         <td>
             <b>Actores:</b>
         </td>    
-        <td></td>  
+        <td>Cliente/administrador</td>  
     </tr>  
     <tr>  
         <td>
             <b>Precondiciones:</b>
         </td>  
-        <td>.</td>  
+        <td>Haber iniciado sesion.</td>  
     </tr>    
     <tr>  
         <td>
             <b>Curso normal:</b>
         </td>  
-        <td>1.
+        <td>1. El cliente hace clic en el foro deseado.
+            <br>2. El cliente accede al foro seleccionado.
+            <br> &nbsp;&nbsp;2.1. Extends Enviar mensaje.
+            <br> &nbsp;&nbsp;2.2. Extends Eliminar mensaje.
         </td>  
     </tr> 
     <tr>  
         <td>
             <b>Postcondiciones:</b>
         </td>  
-        <td> 
+        <td> El cliente/administrador accede al foro deseado.
         </td>
         </td>  
     </tr>  
@@ -1217,10 +1224,11 @@
         <td>
             <b>Alternativas/Excepciones:</b>
         </td>  
-        <td>
+        <td>Ninguna.
         </td>
     </tr> 
 </table>
+
 
 <br>
 
@@ -1247,32 +1255,33 @@
         <td>
             <b>Descripción:</b>
         </td>
-        <td>.</td>
+        <td>El cliente/administrador envia un mensaje por el foro.</td>
     </tr>
     <tr>
         <td>
             <b>Actores:</b>
         </td>    
-        <td></td>  
+        <td>Cliente/administrador</td>  
     </tr>  
     <tr>  
         <td>
             <b>Precondiciones:</b>
         </td>  
-        <td>.</td>  
+        <td>Haber iniciado sesion y accedido a un foro.</td>  
     </tr>    
     <tr>  
         <td>
             <b>Curso normal:</b>
         </td>  
-        <td>1.
+        <td>1. El cliente introduce el mensaje que desea enviar y hace clic en enviar.
+            <br>2. El sistema envia el mensaje al foro correctamente.
         </td>  
     </tr> 
     <tr>  
         <td>
             <b>Postcondiciones:</b>
         </td>  
-        <td> 
+        <td> El cliente/administrador envia el mensaje correctamente.
         </td>
         </td>  
     </tr>  
@@ -1280,10 +1289,11 @@
         <td>
             <b>Alternativas/Excepciones:</b>
         </td>  
-        <td>
+        <td>Ninguna.
         </td>
     </tr> 
 </table>
+
 
 <br>
 
@@ -1310,32 +1320,36 @@
         <td>
             <b>Descripción:</b>
         </td>
-        <td>.</td>
+        <td>El administrador elimina un foro seleccionado.</td>
     </tr>
     <tr>
         <td>
             <b>Actores:</b>
         </td>    
-        <td></td>  
+        <td>Administrador</td>  
     </tr>  
     <tr>  
         <td>
             <b>Precondiciones:</b>
         </td>  
-        <td>.</td>  
+        <td>Haber iniciado sesion.</td>  
     </tr>    
     <tr>  
         <td>
             <b>Curso normal:</b>
         </td>  
-        <td>1.
+        <td>1. El administrador hace clic en el foro deseado.
+            <br>2. El admnistrador hace clic en eliminar.
+            <br>3. El sistema muestra al administrador una advertencia de estar seguro de borrar el producto.
+            <br>4. El administrador hace clic en si.
+            <br>5. El producto es borrado correctamente y el sistema redirecciona al administrador a la pagina principal.
         </td>  
     </tr> 
     <tr>  
         <td>
             <b>Postcondiciones:</b>
         </td>  
-        <td> 
+        <td> El administrador elimina el foro correctamente.
         </td>
         </td>  
     </tr>  
@@ -1343,10 +1357,11 @@
         <td>
             <b>Alternativas/Excepciones:</b>
         </td>  
-        <td>
+        <td>Ninguna.
         </td>
     </tr> 
 </table>
+
 
 <br>
 
@@ -1363,7 +1378,7 @@
         </td>
         <td>Eliminar mensaje</td>
    	</tr>
-    <tr>
+   <tr>
         <td>
             <b>Equipo/Individual<b>
         </td>
@@ -1373,32 +1388,33 @@
         <td>
             <b>Descripción:</b>
         </td>
-        <td>.</td>
+        <td>El administrador elimina un mensaje del foro.</td>
     </tr>
     <tr>
         <td>
             <b>Actores:</b>
         </td>    
-        <td></td>  
+        <td>Administrador</td>  
     </tr>  
     <tr>  
         <td>
             <b>Precondiciones:</b>
         </td>  
-        <td>.</td>  
+        <td>Haber iniciado sesion y accedido a un foro.</td>  
     </tr>    
     <tr>  
         <td>
             <b>Curso normal:</b>
         </td>  
-        <td>1.
+        <td>1. El administrador eliminar el mensaje que desea haciendo clic en un boton al lado del mensaje.
+            <br>2. El sistema elimina correctamente el mensaje del foro.
         </td>  
     </tr> 
     <tr>  
         <td>
             <b>Postcondiciones:</b>
         </td>  
-        <td> 
+        <td> El administrador elimina el mensaje correctamente.
         </td>
         </td>  
     </tr>  
@@ -1406,7 +1422,9 @@
         <td>
             <b>Alternativas/Excepciones:</b>
         </td>  
-        <td>
+        <td>Ninguna.
         </td>
     </tr> 
 </table>
+
+<br>
