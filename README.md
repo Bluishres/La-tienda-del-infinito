@@ -12,7 +12,7 @@ Este proyecto ha sido desarrollado por <b>Manuel Santos Pérez</b> y <b>José An
 
 ¡Hola!, somos los alumnos Manuel Santos Pérez y José Antonio Busto Campos, los desarrolladores y productores de este proyecto de desarrollo de final de curso. Con el queremos mostrarte una aplicación completamente funcional que contendrá 2 partes, Front-end realizado con Flutter 2 y con lenguaje Dart a modo de investigación con vistas móvil y web, y Back-end realizado con Java en el que realizaremos una API REST por la que se conectará el Front-end a la base de datos. Espero que puedan aprender tanto como nosotros de ello.
 
-## Objetivo general. Requisito funcional.
+## Objetivo general.
 
 El objetivo de la aplicación es la venta de productos relacionados al mundo de los superhéroes y videojuegos, y la comunicación de usuarios mediante foro.
 
