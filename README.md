@@ -52,7 +52,7 @@ El objetivo de la aplicación es la venta de productos relacionados al mundo de 
 
   <br>
 
-  <img src=".\resources\1024px-MySQL.ff87215b43fd7292af172e2a5d9b844217262571.png" width="50%" height="50%" />
+   <p align="center"><img src=".\resources\1024px-MySQL.ff87215b43fd7292af172e2a5d9b844217262571.png" width="50%" height="50%" /></p>
 
 - Implementación de API REST.
 
