@@ -4,7 +4,7 @@
 
 ### Diagrama de casos de uso.
 
-<img src=".\analisis\resources\Gestiondeusuarios.png" />
+<img src=".\resources\Gestiondeusuarios.png"/>
 
 ### Descripción de casos de uso.
 
@@ -511,16 +511,16 @@
 
 ### Diagrama de casos de uso.
 
-### Descripción de casos de uso.
-
-## Gestión de ganancias
-
-### Diagrama de casos de uso.
+<img src=".\resources\Gestióndeproductos.png" />
 
 ### Descripción de casos de uso.
+
+<br>
 
 ## Gestión de foro
 
 ### Diagrama de casos de uso.
+
+<img src=".\resources\Gestióndeforo.png" />
 
 ### Descripción de casos de uso.
