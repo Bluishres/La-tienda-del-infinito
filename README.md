@@ -86,7 +86,7 @@ El objetivo de la aplicación es la venta de productos relacionados al mundo de 
 
 **[2. Despliegue de la aplicación.]()**
 
-**[3. Analisis de la aplicación.]()**
+**[3. Analisis de la aplicación.](./analisis/analisis.md)**
 
 **[4. Diseño de la aplicación]()**
 
