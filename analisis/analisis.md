@@ -27,54 +27,49 @@
           <td>
               <b>Equipo/Individual<b>
           </td>
-          <td></td>  
+          <td>Individual: José Antonio</td>  
       </tr>
       <tr>
           <td>
               <b>Descripción:</b>
           </td>
-          <td></td>
+          <td>Cómo nuevo usuario quiero registrarme en el sistema.</td>
       </tr>
       <tr>
           <td>
               <b>Actores:</b>
           </td>    
-          <td></td>  
+          <td>Cliente / Administrador</td>  
       </tr>  
       <tr>  
           <td>
               <b>Precondiciones:</b>
           </td>  
-          <td></td>  
+          <td>Ninguna</td>  
       </tr>    
       <tr>  
           <td>
               <b>Curso normal:</b>
           </td>  
-          <td>1.  <br>2.  <br>3.  <br>  
+          <td>1. El nuevo usuario rellena el formulario de registro.<br>
+  			2. El sistema valida que han sido introducidos todos los datos.<br>
+  			3. El sistema guarda la información del usuario.<br>
+  			4. El usuario ve en pantalla un mensaje que ha sido registrado con éxito.
           </td>  
       </tr> 
       <tr>  
           <td>
               <b>Postcondiciones:</b>
           </td>  
-          <td><br>  
-          </td>
-          </td>  
+          <td>El usuario queda registrado correctamente.</td>
       </tr>  
       <tr>  
           <td>
               <b>Alternativas/Excepciones:</b>
           </td>  
-          <td>  1.  <br><br>
+          <td>3. Al intentar cumplirse ese guardado, no se realiza por lo que salta un error.<br><br>
           </td>
       </tr> 
-      <tr>  
-          <td>
-              <b>RNF incluir</b>
-          </td>  
-          <td></td>
-      </tr>
   </table>
 
 <br>
@@ -98,55 +93,58 @@
           <td>
               <b>Equipo/Individual<b>
           </td>
-          <td></td>  
+          <td>Individual: José Antonio</td>  
       </tr>
       <tr>
           <td>
               <b>Descripción:</b>
           </td>
-          <td></td>
+          <td>Cómo cliente / administrador quiero acceder al sistema.</td>
       </tr>
       <tr>
           <td>
               <b>Actores:</b>
           </td>    
-          <td></td>  
+          <td>Cliente / Administrador</td>  
       </tr>  
       <tr>  
           <td>
               <b>Precondiciones:</b>
           </td>  
-          <td></td>  
+          <td>El usuario debe de estar registrado en el sistema previamente.</td>  
       </tr>    
       <tr>  
           <td>
               <b>Curso normal:</b>
           </td>  
-          <td>1.  <br>2.  <br>3.  <br>  
+          <td>1. El usuario pone su usuario y contraseña.<br>
+  			2. El sistema valida que los datos introducidos son correctos.<br>
+  			3. El usuario entra en el sistema.<br>
+              &nbsp;&nbsp;3.1. Extends Consultar Perfil Usuario<br>
+              &nbsp;&nbsp;3.2. Extends Recuperar Lista de Usuarios<br>
+              &nbsp;&nbsp;3.3. Extends Añadir Producto<br>
+              &nbsp;&nbsp;3.4. Extends Consultar Producto Admin<br>
+              &nbsp;&nbsp;3.5. Crear Foro<br>
+              &nbsp;&nbsp;3.6. Consultar Foro<br>
+              &nbsp;&nbsp;3.6. Borrar Foro<br>
           </td>  
-      </tr> 
-      <tr>  
-          <td>
-              <b>Postcondiciones:</b>
-          </td>  
-          <td><br>  
-          </td>
-          </td>  
-      </tr>  
-      <tr>  
-          <td>
-              <b>Alternativas/Excepciones:</b>
-          </td>  
-          <td>  1.  <br><br>
-          </td>
-      </tr> 
-      <tr>  
-          <td>
-              <b>RNF incluir</b>
-          </td>  
-          <td></td>
-      </tr>
+  </tr> 
+  <tr>  
+      <td>
+          <b>Postcondiciones:</b>
+      </td>  
+      <td>El usuario ve su pantalla correspondiente y queda logueado.</td> 
+  </tr>  
+  <tr>  
+      <td>
+          <b>Alternativas/Excepciones:</b>
+      </td>  
+      <td>2.1. El sistema detecta que los datos introducidos son incorrectos.
+          2.2. Vuelve al paso 1.
+      </td>
+  </tr>
   </table>
+
 
   <br>
 
@@ -169,55 +167,53 @@
           <td>
               <b>Equipo/Individual<b>
           </td>
-          <td></td>  
+          <td>Individual: José Antonio</td>  
       </tr>
       <tr>
           <td>
               <b>Descripción:</b>
           </td>
-          <td></td>
+          <td>El usuario podrá ver en una pantalla de perfil todos sus datos.</td>
       </tr>
       <tr>
           <td>
               <b>Actores:</b>
           </td>    
-          <td></td>  
+          <td>Cliente / Administrador</td>  
       </tr>  
       <tr>  
           <td>
               <b>Precondiciones:</b>
           </td>  
-          <td></td>  
+          <td>El usuario deberá estar registrado y/o logueado.</td>  
       </tr>    
       <tr>  
           <td>
               <b>Curso normal:</b>
           </td>  
-          <td>1.  <br>2.  <br>3.  <br>  
+          <td>1. El usuario pulsa sobre la opción Mis Datos.<br>
+              2. El sistema le lleva a la pantalla de su perfil donde se encuentran sus datos.<br>
+              3. El usuario puede ver sus datos.
           </td>  
       </tr> 
       <tr>  
           <td>
               <b>Postcondiciones:</b>
           </td>  
-          <td><br>  
+          <td>El usuario acaba en la pantalla de su perfil donde están sus datos. 
           </td>
-          </td>  
       </tr>  
       <tr>  
           <td>
               <b>Alternativas/Excepciones:</b>
           </td>  
-          <td>  1.  <br><br>
+          <td>1. El sistema no devuelve la página por algún error de conexión.<br>
+              3. El usuario no puede ver los datos por errores.
           </td>
       </tr> 
-      <tr>  
-          <td>
-              <b>RNF incluir</b>
-          </td>  
-          <td></td>
-      </tr>
   </table>
+
+  
 
   <br>
 
@@ -240,55 +236,52 @@
           <td>
               <b>Equipo/Individual<b>
           </td>
-          <td></td>  
+          <td>Individual: José Antonio</td>  
       </tr>
       <tr>
           <td>
               <b>Descripción:</b>
           </td>
-          <td></td>
+          <td>El administrador puede ver todos los usuarios que están registrados en el sistema.</td>
       </tr>
       <tr>
           <td>
               <b>Actores:</b>
           </td>    
-          <td></td>  
+          <td>Sistema</td>  
       </tr>  
       <tr>  
           <td>
               <b>Precondiciones:</b>
           </td>  
-          <td></td>  
+          <td>El usuario deberá estar registrado y/o logueado.</td>  
       </tr>    
       <tr>  
           <td>
               <b>Curso normal:</b>
           </td>  
-          <td>1.  <br>2.  <br>3.  <br>  
+          <td>1. El sistema recupera la lista de usuarios del usuario que accede a la gestion de amigos.
           </td>  
       </tr> 
       <tr>  
           <td>
               <b>Postcondiciones:</b>
           </td>  
-          <td><br>  
-          </td>
-          </td>  
+          <td>1. El administrador obtiene la lista completa de todos los usuarios que están registrados.<br>
+              &nbsp;&nbsp;1.1. Modificar Usuarios<br>
+              &nbsp;&nbsp;1.2. Suspender Usuarios<br>
+              &nbsp;&nbsp;1.3. Eliminar Usuarios<br>
+          </td> 
       </tr>  
       <tr>  
           <td>
               <b>Alternativas/Excepciones:</b>
           </td>  
-          <td>  1.  <br><br>
+          <td>Ninguna.
           </td>
       </tr> 
-      <tr>  
-          <td>
-              <b>RNF incluir</b>
-          </td>  
-          <td></td>
-      </tr>
   </table>
+
 
   <br>
 
@@ -311,55 +304,52 @@
           <td>
               <b>Equipo/Individual<b>
           </td>
-          <td></td>  
+          <td>Individual: José Antonio</td>  
       </tr>
       <tr>
           <td>
               <b>Descripción:</b>
           </td>
-          <td></td>
+          <td>El administrador modifica los usuarios de la aplicación.</td>
       </tr>
       <tr>
           <td>
               <b>Actores:</b>
           </td>    
-          <td></td>  
+          <td>Administrador</td>  
       </tr>  
       <tr>  
           <td>
               <b>Precondiciones:</b>
           </td>  
-          <td></td>  
+          <td>El administrador deberá haber recuperado la lista de usuarios.</td>  
       </tr>    
       <tr>  
           <td>
               <b>Curso normal:</b>
           </td>  
-          <td>1.  <br>2.  <br>3.  <br>  
+          <td>1. El administrador entra en la cuenta del usuario.<br>
+  			2. Señala la opción de modificar sus datos.<br>
+  			3. Realiza los cambios pertinentes.<br>
+  			4. Los cambios se han registrado correctamente.<br>
           </td>  
-      </tr> 
-      <tr>  
-          <td>
-              <b>Postcondiciones:</b>
-          </td>  
-          <td><br>  
-          </td>
-          </td>  
-      </tr>  
-      <tr>  
-          <td>
-              <b>Alternativas/Excepciones:</b>
-          </td>  
-          <td>  1.  <br><br>
-          </td>
-      </tr> 
-      <tr>  
-          <td>
-              <b>RNF incluir</b>
-          </td>  
-          <td></td>
-      </tr>
-  </table>
+  </tr> 
+  <tr>  
+      <td>
+          <b>Postcondiciones:</b>
+      </td>  
+      <td>El administrador habrá modificado correctamente el/los dato/s de el/los usuario/s.
+      </td>
+  </tr>  
+  <tr>  
+      <td>
+          <b>Alternativas/Excepciones:</b>
+      </td>  
+      <td>4. El tipo de dato introducido en algún campo al modificar el perfil es incorrecto, no tiene el formato correcto o es 			demasiado largo o corto.
+      </td>
+  </tr> 
+  </table>    
+
 
   <br>
 
@@ -382,55 +372,52 @@
           <td>
               <b>Equipo/Individual<b>
           </td>
-          <td></td>  
+          <td>Individual: José Antonio Busto</td>  
       </tr>
       <tr>
           <td>
               <b>Descripción:</b>
           </td>
-          <td></td>
+          <td>El administrador suspende temporalmente a usuarios de la aplicación.</td>
       </tr>
       <tr>
           <td>
               <b>Actores:</b>
           </td>    
-          <td></td>  
+          <td>Administrador</td>  
       </tr>  
       <tr>  
           <td>
               <b>Precondiciones:</b>
           </td>  
-          <td></td>  
+          <td>Ser administrador y acceder a la aplicación.</td>  
       </tr>    
       <tr>  
           <td>
               <b>Curso normal:</b>
           </td>  
-          <td>1.  <br>2.  <br>3.  <br>  
+          <td>1. El administrador hace clic en administrar usuarios.<br>
+      		2. Se abrirá una vista con la lista de usuarios del sistema.<br>
+  			3. el administrador hará clic en el usuario deseado y hará clic en suspender temporalmente.<br>
+  			4. Se realiza la suspensión correctamente.<br>
           </td>  
       </tr> 
       <tr>  
           <td>
               <b>Postcondiciones:</b>
           </td>  
-          <td><br>  
+          <td>Se suspende temporalmente al usuario deseado por el administrador.
           </td>
-          </td>  
       </tr>  
       <tr>  
           <td>
               <b>Alternativas/Excepciones:</b>
           </td>  
-          <td>  1.  <br><br>
+          <td>Ninguna.
           </td>
-      </tr> 
-      <tr>  
-          <td>
-              <b>RNF incluir</b>
-          </td>  
-          <td></td>
       </tr>
   </table>
+
 
   <br>
 
@@ -453,53 +440,48 @@
           <td>
               <b>Equipo/Individual<b>
           </td>
-          <td></td>  
+          <td>Individual: José Antonio</td>  
       </tr>
       <tr>
           <td>
               <b>Descripción:</b>
           </td>
-          <td></td>
+          <td>El administrador quiere dar de baja a un usuario del sistema.</td>
       </tr>
       <tr>
           <td>
               <b>Actores:</b>
           </td>    
-          <td></td>  
+          <td>Administrador</td>  
       </tr>  
       <tr>  
           <td>
               <b>Precondiciones:</b>
           </td>  
-          <td></td>  
+          <td>El usuario debe de estar registrado en el sistema.</td>  
       </tr>    
       <tr>  
           <td>
               <b>Curso normal:</b>
           </td>  
-          <td>1.  <br>2.  <br>3.  <br>  
+          <td>1. El administrador selecciona la opción de “eliminar usuario”.<br>
+  			2. El sistema elimina a dicho usuario.<br>
+  			3. El administrador ve en pantalla que el usuario ha sido eliminado del sistema.<br>
           </td>  
       </tr> 
       <tr>  
           <td>
               <b>Postcondiciones:</b>
           </td>  
-          <td><br>  
+          <td>El administrador ha eliminado al usuario del sistema.
           </td>
-          </td>  
       </tr>  
       <tr>  
           <td>
               <b>Alternativas/Excepciones:</b>
           </td>  
-          <td>  1.  <br><br>
+          <td>2.1. El sistema pierde la conexión y no puede eliminar al usuario.
           </td>
-      </tr> 
-      <tr>  
-          <td>
-              <b>RNF incluir</b>
-          </td>  
-          <td></td>
       </tr>
   </table>
 
