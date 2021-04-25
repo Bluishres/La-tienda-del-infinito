@@ -1,6 +1,6 @@
 # Proyecto de desarrollo de aplicaciones multiplataforma
 
-<center><img src=".\resources\LA TIENDA DEL INFINITO v2.png" style="" /></center>
+<p align="center"><img src=".\resources\LA TIENDA DEL INFINITO v2.png" style="" /></p>
 
 ### Autores
 
@@ -36,7 +36,7 @@ El objetivo de la aplicación es la venta de productos relacionados al mundo de 
 
   <br>
 
-  <center><img src=".\resources\spring-boot.png" style="zoom:75%;" /></center>
+  <p align="center"><img src=".\resources\spring-boot.png" style="zoom:75%;" /></p>
 
 - Implementación de capa de seguridad en Back-end.
 
@@ -48,7 +48,7 @@ El objetivo de la aplicación es la venta de productos relacionados al mundo de 
 
   <br>
 
-  <center><img src=".\resources\450_1000.jpg" /></center>
+  <p align="center"><img src=".\resources\450_1000.jpg" /></p>
 
 - Implementación de base de datos relacional de MySQL.
 
@@ -60,7 +60,7 @@ El objetivo de la aplicación es la venta de productos relacionados al mundo de 
 
   <br>
 
-  <center><img src=".\resources\ApiRest.png" /></center>
+  <p align="center"><img src=".\resources\ApiRest.png" /></p>
 
 - Implementación de Maven.
 
@@ -78,7 +78,7 @@ El objetivo de la aplicación es la venta de productos relacionados al mundo de 
 
   <br>
 
-  <center><img src=".\resources\245px-Adobe_XD_CC_icon.svg.png" style="zoom:50%;" /> </center>
+  <p align="center"><img src=".\resources\245px-Adobe_XD_CC_icon.svg.png" style="zoom:50%;" /> </p>
 
   
 
