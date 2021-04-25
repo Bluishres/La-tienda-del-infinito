@@ -1,4 +1,6 @@
-![](.\resources\LA TIENDA DEL INFINITO v2.png)
+# Proyecto de desarrollo de aplicaciones multiplataforma
+
+<img src=".\resources\LA TIENDA DEL INFINITO v2.png" />
 
 ### Autores
 
@@ -46,7 +48,7 @@ El objetivo de la aplicación es la venta de productos relacionados al mundo de 
 
   <br>
 
-  ![](.\resources\450_1000.jpg)
+  <img src=".\resources\450_1000.jpg" />
 
 - Implementación de base de datos relacional de MySQL.
 
@@ -58,7 +60,7 @@ El objetivo de la aplicación es la venta de productos relacionados al mundo de 
 
   <br>
 
-  ![](.\resources\ApiRest.png)
+  <img src=".\resources\ApiRest.png" />
 
 - Implementación de Maven.
 
