@@ -8,8 +8,6 @@ Este proyecto ha sido desarrollado por <b>Manuel Santos Pérez</b> y <b>José An
 
 <br>
 
-<br>
-
 # Introducción
 
 ¡Hola!, somos los alumnos Manuel Santos Pérez y José Antonio Busto Campos, los desarrolladores y productores de este proyecto de desarrollo de final de curso. Con el queremos mostrarte una aplicación completamente funcional que contendrá 2 partes, Front-end realizado con Flutter 2 y con lenguaje Dart a modo de investigación con vistas móvil y web, y Back-end realizado con Java en el que realizaremos una API REST por la que se conectará el Front-end a la base de datos. Espero que puedan aprender tanto como nosotros de ello.
@@ -54,7 +52,7 @@ El objetivo de la aplicación es la venta de productos relacionados al mundo de 
 
   <br>
 
-  <img src=".\resources\1024px-MySQL.ff87215b43fd7292af172e2a5d9b844217262571.png" style="zoom:33%;" />
+  <img src=".\resources\1024px-MySQL.ff87215b43fd7292af172e2a5d9b844217262571.png" style="zoom:20%;" />
 
 - Implementación de API REST.
 
@@ -66,7 +64,7 @@ El objetivo de la aplicación es la venta de productos relacionados al mundo de 
 
   <br>
 
-  <img src="C:\Users\Bluishres\Documents\GitHub\La-tienda-del-infinito\resources\1280px-Maven_logo.svg_.png" style="zoom:40%;" />
+  <img src=".\resources\1280px-Maven_logo.svg_.png" style="zoom:40%;" />
 
 - Implementación de imagen en Docker.
 
