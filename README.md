@@ -58,7 +58,7 @@ Estas funcionalidades extras son:
 
 <p align="center"><img src=".\resources\450_1000.jpg" /></p>
 
-- Profundizar en el desarrollo y aplicación de un artefacto software utilizando la [arquitectura limpia por capa](https://docs.google.com/document/d/1pyZn3ySOYJ0Q4SSu-hB-M9UfLk9qwkGjVkKOJfud1fo/edit?usp=sharing)s.
+- Profundizar en el desarrollo y aplicación de un artefacto software utilizando la arquitectura limpia por capas.
 
   
 
