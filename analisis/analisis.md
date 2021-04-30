@@ -1,5 +1,16 @@
 # Análisis de la aplicación.
 
+## Índice de contenido
+
+**[1. Gestión de usuarios.](#USUARIOS)**
+
+**[2. Despliegue de productos.](#PRODUCTOS)**
+
+**[3. Gestion de foro.](#FORO)**
+
+<br>
+<a name="USUARIOS"></a>
+
 ## Gestión de usuarios
 
 ### Diagrama de casos de uso.
@@ -486,7 +497,7 @@
   </table>
 
 <br>
-
+<a name="PRODUCTOS"></a>
 ## Gestión de productos
 
 ### Diagrama de casos de uso.
@@ -1089,7 +1100,7 @@
 </table>
 
 <br>
-
+<a name="FORO"></a>
 ## Gestión de foro
 
 ### Diagrama de casos de uso.

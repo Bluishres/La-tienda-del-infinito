@@ -14,71 +14,75 @@ Este proyecto ha sido desarrollado por <b>Manuel Santos Pérez</b> y <b>José An
 
 ## Objetivo general.
 
-El objetivo de la aplicación es la venta de productos relacionados al mundo de los superhéroes y videojuegos, y la comunicación de usuarios mediante foro.
+El objetivo de la aplicación es la venta de productos relacionados al mundo de los superhéroes y videojuegos, y la comunicación de usuarios mediante foro. 
+
+El usuario podrá entrar sin registrarse en la app y ver nuestros productos. Sin embargo, para acceder a las demás funcionalidades, tendrá que estar registrado.
+
+Estas funcionalidades extras son:
+
+- Comprar o reservar el producto que desee.
+- Añadir a la lista de deseados el producto.
+- Acceder al foro donde podrá conversar de sus temas favoritos.
 
 <br>
 
 ## Objetivo específicos. Requisitos no funcionales.
 
+<img src=".\resources\flutter2.png" style="zoom:25%;" />
+
 - Conocer el lenguaje Dart y poner en práctica el funcionamiento de una aplicación real con Flutter 2.
 
-  <img src=".\resources\flutter2.png" style="zoom:25%;" />
+- Implementar una aplicación Web y Móvil a través del framework Flutter y el lenguaje de programación Dart.
+- Usar el mismo código fuente escrito en Dart y usando el framework Flutter para conseguir desarrollar la aplicación Web y la app móvil.
+- Investigar y poner en práctica la arquitectura desacoplada en la parte cliente a través de la realización de 2 clientes desacoplados, una WebApp y una app móvil.
 
-- Implementación de capa de Testing en el Back-end.
 
-  <img src=".\resources\testing-en-un-mundo-agile.png" style="zoom:50%;" />
 
-- Desarrollo de vistas para web y móvil.
+<img src=".\resources\testing-en-un-mundo-agile.png" style="zoom:50%;" />
+
+- Aplicar estrategias de testing para mejorar la calidad del software genarado y la automatización de las pruebas.
+
+<br>
+
+<p align="center"><img src=".\resources\spring-boot.png" style="zoom:75%;" /></p>
 
 - Implementación de Spring con Spring Boot en Back-end.
 
   <br>
 
-  <p align="center"><img src=".\resources\spring-boot.png" style="zoom:75%;" /></p>
+<img src=".\resources\spring_security-e1588763146414.jpg" style="zoom:40%;" />
 
-- Implementación de capa de seguridad en Back-end.
+- Implementar capa de seguridad en Fronted y Backend, a través de Spring Security.
 
-  <br>
+<br>
 
-  <img src=".\resources\spring_security-e1588763146414.jpg" style="zoom:40%;" />
+<p align="center"><img src=".\resources\450_1000.jpg" /></p>
 
-- Implementación de Arquitectura limpia por capas.
+- Profundizar en el desarrollo y aplicación de un artefacto software utilizando la [arquitectura limpia por capa](https://docs.google.com/document/d/1pyZn3ySOYJ0Q4SSu-hB-M9UfLk9qwkGjVkKOJfud1fo/edit?usp=sharing)s.
 
-  <br>
-
-  <p align="center"><img src=".\resources\450_1000.jpg" /></p>
-
-- Implementación de base de datos relacional de MySQL.
-
-  <br>
-
-   <p align="center"><img src=".\resources\1024px-MySQL.ff87215b43fd7292af172e2a5d9b844217262571.png" width="50%" height="50%" /></p>
-
-- Implementación de API REST.
-
-  <br>
+  
 
   <p align="center"><img src=".\resources\ApiRest.png" /></p>
 
-- Implementación de Maven.
-
-  <br>
-
-  <img src=".\resources\1280px-Maven_logo.svg_.png" style="zoom:40%;" />
-
-- Implementación de imagen en Docker.
+- Desarrollar una API REST que permita desacoplar los clientes (Web, Móvil, etc..) de la tecnología usada en el Backend.
 
   <br>
 
   <img src=".\resources\1_JUOITpaBdlrMP9D__-K5Fw.png" style="zoom:33%;" />
 
-- Implementación de prototipos de interfaces con AdobeXD.
+  
+
+- Usar Docker/Container en desarrollo para facilitar la transición entre fase de desarrollo y producción.
 
   <br>
 
   <p align="center"><img src=".\resources\245px-Adobe_XD_CC_icon.svg.png" style="zoom:50%;" /> </p>
 
-  
+- Realizar el prototipado de la interfaces del Frontend utilizando la herramienta Adobe XD.
+
+  <br>
+
+
 
 ## Índice de contenido
 
@@ -88,19 +92,23 @@ El objetivo de la aplicación es la venta de productos relacionados al mundo de 
 
 **[3. Analisis de la aplicación.](./analisis/analisis.md)**
 
-**[4. Diseño de la aplicación]()**
+**[4. Diseño de la aplicación.]()**
 
-**[5. Pruebas.]()**
+**[5. Arquitectura de la aplicación.]()**
 
-**[6. Problemas durante el desarrollo.]()**
+**[6. Tecnologías de desarrollo.]()**
 
-**[7. Mejoras posibles.]()**
+**[7. Pruebas.]()**
 
-**[8. Conclusiones.]()**
+**[8. Problemas durante el desarrollo.]()**
 
-**[9. Bibliografía.]()**
+**[9. Mejoras posibles.]()**
 
-**[10. Manual de Usuario]()**
+**[10. Conclusiones.]()**
+
+**[11. Bibliografía.]()**
+
+**[12. Manual de Usuario]()**
 
 <br>
 
