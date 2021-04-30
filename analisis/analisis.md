@@ -498,6 +498,7 @@
 
 <br>
 <a name="PRODUCTOS"></a>
+
 ## Gestión de productos
 
 ### Diagrama de casos de uso.
@@ -1101,6 +1102,7 @@
 
 <br>
 <a name="FORO"></a>
+
 ## Gestión de foro
 
 ### Diagrama de casos de uso.
