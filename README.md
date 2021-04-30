@@ -92,7 +92,7 @@ Estas funcionalidades extras son:
 
 **[3. Analisis de la aplicación.](./analisis/analisis.md)**
 
-**[4. Diseño de la aplicación.]()**
+**[4. Diseño de la aplicación.](./diseño/diseño.md)**
 
 **[5. Arquitectura de la aplicación.]()**
 
