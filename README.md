@@ -86,7 +86,7 @@ Estas funcionalidades extras son:
 
 ## Índice de contenido
 
-**[1. Entorno de desarrollo.](./entorno/entorno.md)**
+**[1. Entorno de trabajo.](./entorno/entorno.md)**
 
 **[2. Despliegue de la aplicación.]()**
 
