@@ -46,19 +46,19 @@ Para la instalación del entorno de desarrollo del Frontend, necesitaremos insta
 
 <br>
 
-<p align="center"><img src=".\resources\android2.PNG" style="width:60%; height:60%;" /></p>
+<p align="center"><img src=".\resources\Android2.PNG" style="width:60%; height:60%;" /></p>
 
 <br>
 
-<p align="center"><img src=".\resources\android3.PNG" style="width:50%; height:50%;" /></p>
+<p align="center"><img src=".\resources\Android3.PNG" style="width:50%; height:50%;" /></p>
 
 <br>
 
-<p align="center"><img src=".\resources\android4.PNG" style="width:50%; height:50%;" /></p>
+<p align="center"><img src=".\resources\Android4.PNG" style="width:50%; height:50%;" /></p>
 
 <br>
 
-<p align="center"><img src=".\resources\android6.PNG" style="width:50%; height:50%;" /></p>
+<p align="center"><img src=".\resources\Android6.PNG" style="width:50%; height:50%;" /></p>
 
 <br>
 <a name="DART"></a>
