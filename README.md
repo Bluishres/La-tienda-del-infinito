@@ -94,21 +94,21 @@ Estas funcionalidades extras son:
 
 **[4. Diseño de la aplicación.](./diseño/diseño.md)**
 
-**[5. Arquitectura de la aplicación.]()**
+**[5. Arquitectura de la aplicación.](#)**
 
-**[6. Tecnologías de desarrollo.]()**
+**[6. Tecnologías de desarrollo.](#)**
 
-**[7. Pruebas.]()**
+**[7. Pruebas.](#)**
 
-**[8. Problemas durante el desarrollo.]()**
+**[8. Problemas durante el desarrollo.](#)**
 
-**[9. Mejoras posibles.]()**
+**[9. Mejoras posibles.](#)**
 
-**[10. Conclusiones.]()**
+**[10. Conclusiones.](#)**
 
 **[11. Bibliografía.](./bibliografia/bibliografia.md)**
 
-**[12. Manual de Usuario]()**
+**[12. Manual de Usuario](#)**
 
 <br>
 
