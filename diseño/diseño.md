@@ -459,7 +459,7 @@
 <table style="width:100%">
     <tr>
         <th>
-            <b>RI-4 Mensaje </b>
+            <b>RI-5 Mensaje </b>
         </th>
     </tr>
     <tr>
@@ -973,7 +973,7 @@
 <table style="width:100%">
     <tr>
         <th>
-            <b>RI-4 Mensaje </b>
+            <b>RI-5 Mensaje </b>
         </th>
     </tr>
     <tr>
