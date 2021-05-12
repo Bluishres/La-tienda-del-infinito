@@ -4,9 +4,9 @@
 
 **[1. Gestión de usuarios.](#USUARIOS)**
 
-**[2. Despliegue de productos.](#PRODUCTOS)**
+**[2. Gestión de productos.](#PRODUCTOS)**
 
-**[3. Gestion de foro.](#FORO)**
+**[3. Gestión de foro.](#FORO)**
 
 <br>
 <a name="USUARIOS"></a>
@@ -135,9 +135,9 @@
               &nbsp;&nbsp;3.2. Extends Recuperar Lista de Usuarios<br>
               &nbsp;&nbsp;3.3. Extends Añadir Producto<br>
               &nbsp;&nbsp;3.4. Extends Consultar Producto Admin<br>
-              &nbsp;&nbsp;3.5. Crear Foro<br>
-              &nbsp;&nbsp;3.6. Consultar Foro<br>
-              &nbsp;&nbsp;3.6. Borrar Foro<br>
+              &nbsp;&nbsp;3.5. Crear Hilo<br>
+              &nbsp;&nbsp;3.6. Consultar Hilo<br>
+              &nbsp;&nbsp;3.6. Borrar Hilo<br>
           </td>  
   </tr> 
   <tr>  
@@ -280,8 +280,7 @@
           </td>  
           <td>1. El administrador obtiene la lista completa de todos los usuarios que están registrados.<br>
               &nbsp;&nbsp;1.1. Modificar Usuarios<br>
-              &nbsp;&nbsp;1.2. Suspender Usuarios<br>
-              &nbsp;&nbsp;1.3. Eliminar Usuarios<br>
+              &nbsp;&nbsp;1.2. Eliminar Usuarios<br>
           </td> 
       </tr>  
       <tr>  
@@ -360,74 +359,6 @@
       </td>
   </tr> 
   </table>    
-
-
-  <br>
-
-- **Suspender Usuarios**
-
-  <table style="width:100%">
-      <tr>
-          <td>
-              <b>ID: </b>
-          </td>
-          <td>CU-6</td>
-      </tr>
-    	<tr>
-          <td>
-              <b>Nombre: </b>
-          </td>
-          <td>Suspender Usuarios</td>
-     	</tr>
-      <tr>
-          <td>
-              <b>Equipo/Individual<b>
-          </td>
-          <td>Individual: José Antonio Busto</td>  
-      </tr>
-      <tr>
-          <td>
-              <b>Descripción:</b>
-          </td>
-          <td>El administrador suspende temporalmente a usuarios de la aplicación.</td>
-      </tr>
-      <tr>
-          <td>
-              <b>Actores:</b>
-          </td>    
-          <td>Administrador</td>  
-      </tr>  
-      <tr>  
-          <td>
-              <b>Precondiciones:</b>
-          </td>  
-          <td>Ser administrador y acceder a la aplicación.</td>  
-      </tr>    
-      <tr>  
-          <td>
-              <b>Curso normal:</b>
-          </td>  
-          <td>1. El administrador hace clic en administrar usuarios.<br>
-      		2. Se abrirá una vista con la lista de usuarios del sistema.<br>
-  			3. el administrador hará clic en el usuario deseado y hará clic en suspender temporalmente.<br>
-  			4. Se realiza la suspensión correctamente.<br>
-          </td>  
-      </tr> 
-      <tr>  
-          <td>
-              <b>Postcondiciones:</b>
-          </td>  
-          <td>Se suspende temporalmente al usuario deseado por el administrador.
-          </td>
-      </tr>  
-      <tr>  
-          <td>
-              <b>Alternativas/Excepciones:</b>
-          </td>  
-          <td>Ninguna.
-          </td>
-      </tr>
-  </table>
 
 
   <br>
@@ -551,7 +482,6 @@
         <td>1. El cliente selecciona un producto de la pagina principal haciendo clic en el. 
             <br>2. El sistema muestra al usuario el producto en una nueva vista.  
             <br>&nbsp;&nbsp;2.1. Extends Comprar producto.
-            <br>&nbsp;&nbsp;2.2. Extends Reservar Producto.
             <br>&nbsp;&nbsp;2.2. Extends Añadir a deseados.
         </td>  
     </tr> 
@@ -571,6 +501,7 @@
         </td>
     </tr> 
 </table>
+
 
 <br>
 
@@ -639,74 +570,6 @@
         </td>
     </tr> 
 </table>
-
-<br>
-
-<table style="width:100%">
-    <tr>
-        <td>
-            <b>ID: </b>
-        </td>
-        <td>CU-10</td>
-    </tr>
-  	<tr>
-        <td>
-            <b>Nombre: </b>
-        </td>
-        <td>Reservar producto</td>
-   	</tr>
-    <tr>
-        <td>
-            <b>Equipo/Individual<b>
-        </td>
-        <td>Individual: Manuel</td>  
-    </tr>
-    <tr>
-        <td>
-            <b>Descripción:</b>
-        </td>
-        <td>El cliente reserva el producto para la fecha de lanzamiento.</td>
-    </tr>
-    <tr>
-        <td>
-            <b>Actores:</b>
-        </td>    
-        <td>Cliente</td>  
-    </tr>  
-    <tr>  
-        <td>
-            <b>Precondiciones:</b>
-        </td>  
-        <td>Estar registrado como usuario.</td>  
-    </tr>    
-    <tr>  
-        <td>
-            <b>Curso normal:</b>
-        </td>  
-        <td>1. El usuario hace clic en reservar.
-            <br>2. Include Iniciar sesion.
-            <br>3. El sistema pide la dirección, el sistema de pago que quiere el usuario y la información necesaria.
-            <br>4. El usuario introduce todos los datos necesarios.
-            <br>5. Se realiza la reserva correctamente.
-        </td>  
-    </tr> 
-    <tr>  
-        <td>
-            <b>Postcondiciones:</b>
-        </td>  
-        <td>El usuario reserva el producto satisfactoriamente.<br>  
-        </td>
-        </td>  
-    </tr>  
-    <tr>  
-        <td>
-            <b>Alternativas/Excepciones:</b>
-        </td>  
-        <td>5. El sistema notifica al usuario que se ha introducido mal algún dato.<br>
-        </td>
-    </tr> 
-</table>
-
 <br>
 
 <table style="width:100%">
@@ -768,70 +631,6 @@
             <b>Alternativas/Excepciones:</b>
         </td>  
         <td>Ninguna.
-        </td>
-    </tr> 
-</table>
-
-<br>
-
-<table style="width:100%">
-    <tr>
-        <td>
-            <b>ID: </b>
-        </td>
-        <td>CU-12</td>
-    </tr>
-  	<tr>
-        <td>
-            <b>Nombre: </b>
-        </td>
-        <td>Registrar ganancias</td>
-   	</tr>
-    <tr>
-        <td>
-            <b>Equipo/Individual<b>
-        </td>
-        <td>Individual: Manuel</td>  
-    </tr>
-    <tr>
-        <td>
-            <b>Descripción:</b>
-        </td>
-        <td>El sistema registra en la base de datos la ganancia por el producto vendido.</td>
-    </tr>
-    <tr>
-        <td>
-            <b>Actores:</b>
-        </td>    
-        <td>Sistema</td>  
-    </tr>  
-    <tr>  
-        <td>
-            <b>Precondiciones:</b>
-        </td>  
-        <td>Haber comprado como cliente un producto.</td>  
-    </tr>    
-    <tr>  
-        <td>
-            <b>Curso normal:</b>
-        </td>  
-        <td>1. Include Comprar producto.
-            <br> 2. El sistema accede al precio del producto y añade a la base de datos de ganancias el 60% del precio total del 				producto como beneficio.
-        </td>  
-    </tr> 
-    <tr>  
-        <td>
-            <b>Postcondiciones:</b>
-        </td>  
-        <td>El sistema añade el beneficio obtenido del producto vendido a la base de datos.<br>  
-        </td>
-        </td>  
-    </tr>  
-    <tr>  
-        <td>
-            <b>Alternativas/Excepciones:</b>
-        </td>  
-        <td>Ninguna. <br>
         </td>
     </tr> 
 </table>
@@ -967,7 +766,6 @@
         </td>
     </tr> 
 </table>
-
 <br>
 
 <table style="width:100%">
@@ -1122,7 +920,7 @@
         <td>
             <b>Nombre: </b>
         </td>
-        <td>Crear foro</td>
+        <td>Crear hilo</td>
    	</tr>
     <tr>
         <td>
@@ -1134,7 +932,7 @@
         <td>
             <b>Descripción:</b>
         </td>
-        <td>El cliente/administrador crea un foro.</td>
+        <td>El cliente/administrador crea un hilo.</td>
     </tr>
     <tr>
         <td>
@@ -1152,17 +950,17 @@
         <td>
             <b>Curso normal:</b>
         </td>  
-        <td>1. En la ventana de foros, el cliente hace clic en crear foro.
+        <td>1. En la ventana de foros, el cliente hace clic en crear hilo.
             <br>2. El sistema muestra una nueva ventana con campos a rellenar.
             <br>3. El cliente rellena los campos necesarios y hace clic en crear.
-            <br>4. El foro es creado correctamente.
+            <br>4. El hilo es creado correctamente.
         </td>  
     </tr> 
     <tr>  
         <td>
             <b>Postcondiciones:</b>
         </td>  
-        <td> El cliente/administrador crea correctamente un foro.
+        <td> El cliente/administrador crea correctamente un hilo.
         </td>
         </td>  
     </tr>  
@@ -1174,6 +972,7 @@
         </td>
     </tr> 
 </table>
+
 
 
 <br>
@@ -1189,7 +988,7 @@
         <td>
             <b>Nombre: </b>
         </td>
-        <td>Consultar foro</td>
+        <td>Consultar hilo</td>
    	</tr>
     <tr>
         <td>
@@ -1201,7 +1000,7 @@
         <td>
             <b>Descripción:</b>
         </td>
-        <td>El cliente/administrador accede a un foro ya creado previamente.</td>
+        <td>El cliente/administrador accede a un hilo ya creado previamente.</td>
     </tr>
     <tr>
         <td>
@@ -1219,8 +1018,8 @@
         <td>
             <b>Curso normal:</b>
         </td>  
-        <td>1. El cliente hace clic en el foro deseado.
-            <br>2. El cliente accede al foro seleccionado.
+        <td>1. El cliente hace clic en el hilo deseado.
+            <br>2. El cliente accede al hilo seleccionado.
             <br> &nbsp;&nbsp;2.1. Extends Enviar mensaje.
             <br> &nbsp;&nbsp;2.2. Extends Eliminar mensaje.
         </td>  
@@ -1229,7 +1028,7 @@
         <td>
             <b>Postcondiciones:</b>
         </td>  
-        <td> El cliente/administrador accede al foro deseado.
+        <td> El cliente/administrador accede al hilo deseado.
         </td>
         </td>  
     </tr>  
@@ -1241,6 +1040,7 @@
         </td>
     </tr> 
 </table>
+
 
 
 <br>
@@ -1268,7 +1068,7 @@
         <td>
             <b>Descripción:</b>
         </td>
-        <td>El cliente/administrador envia un mensaje por el foro.</td>
+        <td>El cliente/administrador envia un mensaje por el hilo.</td>
     </tr>
     <tr>
         <td>
@@ -1280,14 +1080,14 @@
         <td>
             <b>Precondiciones:</b>
         </td>  
-        <td>Haber iniciado sesion y accedido a un foro.</td>  
+        <td>Haber iniciado sesion y accedido a un hilo.</td>  
     </tr>    
     <tr>  
         <td>
             <b>Curso normal:</b>
         </td>  
         <td>1. El cliente introduce el mensaje que desea enviar y hace clic en enviar.
-            <br>2. El sistema envia el mensaje al foro correctamente.
+            <br>2. El sistema envia el mensaje al hilo correctamente.
         </td>  
     </tr> 
     <tr>  
@@ -1308,6 +1108,7 @@
 </table>
 
 
+
 <br>
 
 <table style="width:100%">
@@ -1321,7 +1122,7 @@
         <td>
             <b>Nombre: </b>
         </td>
-        <td>Borrar foro</td>
+        <td>Borrar hilo</td>
    	</tr>
     <tr>
         <td>
@@ -1333,7 +1134,7 @@
         <td>
             <b>Descripción:</b>
         </td>
-        <td>El administrador elimina un foro seleccionado.</td>
+        <td>El administrador elimina un hilo seleccionado.</td>
     </tr>
     <tr>
         <td>
@@ -1351,18 +1152,18 @@
         <td>
             <b>Curso normal:</b>
         </td>  
-        <td>1. El administrador hace clic en el foro deseado.
+        <td>1. El administrador hace clic en el hilo deseado.
             <br>2. El admnistrador hace clic en eliminar.
-            <br>3. El sistema muestra al administrador una advertencia de estar seguro de borrar el producto.
-            <br>4. El administrador hace clic en si.
-            <br>5. El producto es borrado correctamente y el sistema redirecciona al administrador a la pagina principal.
+            <br>3. El sistema muestra al administrador una advertencia de estar seguro de borrar el hilo.
+            <br>4. El administrador hace clic en sí.
+            <br>5. El hilo es borrado correctamente y el sistema redirecciona al administrador a la pagina principal.
         </td>  
     </tr> 
     <tr>  
         <td>
             <b>Postcondiciones:</b>
         </td>  
-        <td> El administrador elimina el foro correctamente.
+        <td> El administrador elimina el hilo correctamente.
         </td>
         </td>  
     </tr>  
@@ -1374,6 +1175,7 @@
         </td>
     </tr> 
 </table>
+
 
 
 <br>
