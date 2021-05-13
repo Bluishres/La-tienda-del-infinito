@@ -98,17 +98,19 @@ Estas funcionalidades extras son:
 
 **[6. Tecnologías de desarrollo.](#)**
 
-**[7. Pruebas.](#)**
+**[7. Prototipado de usuario.](#)**
 
-**[8. Problemas durante el desarrollo.](#)**
+**[8. Pruebas.](#)**
 
-**[9. Mejoras posibles.](#)**
+**[9. Problemas durante el desarrollo.](#)**
 
-**[10. Conclusiones.](#)**
+**[10. Mejoras posibles.](#)**
 
-**[11. Bibliografía.](./bibliografia/bibliografia.md)**
+**[11. Conclusiones.](#)**
 
-**[12. Manual de Usuario](#)**
+**[12. Bibliografía.](./bibliografia/bibliografia.md)**
+
+**[13. Manual de Usuario](#)**
 
 <br>
 
