@@ -171,32 +171,21 @@
             Lista, List&lt;Foro&gt;
         </td>
         <td>
-            Lista_foros
+            Lista_hilos
         </td>  
         <td>
-            Lista de foros creados por el usuario registrado.
+            Lista de hilos creados por el usuario registrado.
         </td> 
     </tr>
     <tr>
         <td>
-            Lista, List&lt;Producto&gt;
+            Boolean
         </td>
         <td>
-            Lista_deseados
+           	Baneado
         </td>  
         <td>
-            Lista de productos deseados por el usuario.
-        </td> 
-    </tr>
-    <tr>
-        <td>
-            Lista, List&lt;Producto&gt;
-        </td>
-        <td>
-            Historial_Compra
-        </td>  
-        <td>
-            Historial de los productos comprados por el usuario.
+            Campo booleano que indicará si el usuario está baneado o no.
         </td> 
     </tr>
 </table>
@@ -206,7 +195,172 @@
 <table style="width:100%">
     <tr>
         <th>
-            <b>RI-2 Producto </b>
+            <b>RI-2 Ticket </b>
+        </th>
+    </tr>
+    <tr>
+        <td>
+            <b>Autor<b>
+        </td>
+        <td>Equipo</td>  
+    </tr>
+    <tr>
+        <td>
+            <b>Descripción<b>
+        </td>
+        <td>Intermediario entre producto y usuario en el que se guardan todos los productos comprados por el usuario.</td>  
+    </tr>
+    <tr>
+        <td>
+            <b>Tipo de dato<b>
+        </td>
+        <td>
+            <b>Nombre<b>
+        </td>  
+        <td>
+            <b>Descripción<b>
+        </td> 
+    </tr>
+    <tr>
+        <td>
+           Numérico, Integer
+        </td>
+        <td>
+            Id
+        </td>  
+        <td>
+            Identificador del ticket.
+        </td> 
+    </tr>
+    <tr>
+        <td>
+            Date
+        </td>
+        <td>
+            Fecha
+        </td>  
+        <td>
+            Fecha de la compra.
+        </td> 
+    </tr>
+    <tr>
+        <td>
+            Double
+        </td>
+        <td>
+            Importe
+        </td>  
+        <td>
+            Importe por el que ha salido la compra.
+        </td> 
+    </tr>
+    <tr>
+        <td>
+           	Integer
+        </td>
+        <td>
+            Uds
+        </td>  
+        <td>
+            Unidades de producto compradas por usuario.
+        </td> 
+    </tr>
+    <tr>
+        <td>
+            Usuario
+        </td>
+        <td>
+            Usuario
+        </td>  
+        <td>
+            Usuario que compra.
+        </td> 
+    </tr>
+    <tr>
+        <td>
+            Producto
+        </td>
+        <td>
+            Producto
+        </td>  
+        <td>
+            Producto/s comprado.
+        </td> 
+    </tr>
+</table>
+
+<br>
+
+<table style="width:100%">
+    <tr>
+        <th>
+            <b>RI-3 Favoritos </b>
+        </th>
+    </tr>
+    <tr>
+        <td>
+            <b>Autor<b>
+        </td>
+        <td>Equipo</td>  
+    </tr>
+    <tr>
+        <td>
+            <b>Descripción<b>
+        </td>
+        <td>Productos que el usuario añade como favorito.</td>  
+    </tr>
+    <tr>
+        <td>
+            <b>Tipo de dato<b>
+        </td>
+        <td>
+            <b>Nombre<b>
+        </td>  
+        <td>
+            <b>Descripción<b>
+        </td> 
+    </tr>
+    <tr>
+        <td>
+           Numérico, Integer
+        </td>
+        <td>
+            Id
+        </td>  
+        <td>
+            Identificador del producto favorito.
+        </td> 
+    </tr>
+    <tr>
+        <td>
+            Usuario
+        </td>
+        <td>
+            Usuario
+        </td>  
+        <td>
+            Usuario que añade producto a favorito.
+        </td> 
+    </tr>
+    <tr>
+        <td>
+            Producto
+        </td>
+        <td>
+            Producto
+        </td>  
+        <td>
+            Producto/s que ha sido añadido a favorito.
+        </td> 
+    </tr>
+</table>
+
+<br>
+
+<table style="width:100%">
+    <tr>
+        <th>
+            <b>RI-4 Producto </b>
         </th>
     </tr>
     <tr>
@@ -303,10 +457,10 @@
             Lista, List&lt;Usuario&gt;
         </td>
         <td>
-            Lista_usuarios
+            Lista_tickets
         </td>  
         <td>
-            Lista de usuarios que han comprado el producto.
+            Lista de tickets que tiene un producto.
         </td> 
     </tr>
 </table>
@@ -316,7 +470,7 @@
 <table style="width:100%">
     <tr>
         <th>
-            <b>RI-3 Hilo </b>
+            <b>RI-5 Hilo </b>
         </th>
     </tr>
     <tr>
@@ -375,17 +529,6 @@
             Fecha de creación del hilo.
         </td> 
     </tr>
-    <tr>
-        <td>
-           	Numérico, Integer
-        </td>
-        <td>
-            Id_Historial
-        </td>  
-        <td>
-            Identificador del historial del hilo.
-        </td> 
-    </tr>
 </table>
 
 <br>
@@ -393,7 +536,7 @@
 <table style="width:100%">
     <tr>
         <th>
-            <b>RI-4 Historial </b>
+            <b>RI-6 Mensaje </b>
         </th>
     </tr>
     <tr>
@@ -406,73 +549,7 @@
         <td>
             <b>Descripción<b>
         </td>
-        <td>Historial de mensajes perteneciente al hilo.</td>  
-    </tr>
-    <tr>
-        <td>
-            <b>Tipo de dato<b>
-        </td>
-        <td>
-            <b>Nombre<b>
-        </td>  
-        <td>
-            <b>Descripción<b>
-        </td> 
-    </tr>
-    <tr>
-        <td>
-           Numérico, Integer
-        </td>
-        <td>
-            Id
-        </td>  
-        <td>
-            Identificador del historial.
-        </td> 
-    </tr>
-    <tr>
-        <td>
-            Lista, List&lt;Mensaje&gt;
-        </td>
-        <td>
-            Mensajes
-        </td>  
-        <td>
-            Mensajes del historial.
-        </td> 
-    </tr>
-    <tr>
-        <td>
-            Numérico, Integer
-        </td>
-        <td>
-            Id_Hilo
-        </td>  
-        <td>
-            Identificador del hilo al que pertenece.
-        </td> 
-    </tr>
-</table>
-
-<br>
-
-<table style="width:100%">
-    <tr>
-        <th>
-            <b>RI-5 Mensaje </b>
-        </th>
-    </tr>
-    <tr>
-        <td>
-            <b>Autor<b>
-        </td>
-        <td>Equipo</td>  
-    </tr>
-    <tr>
-        <td>
-            <b>Descripción<b>
-        </td>
-        <td>Mensaje creado por el usuario para un foro.</td>  
+        <td>Mensaje creado por el usuario para un hilo.</td>  
     </tr>
     <tr>
         <td>
@@ -685,32 +762,21 @@
             Lista, List&lt;Foro&gt;
         </td>
         <td>
-            Lista_foros
+            Lista_hilos
         </td>  
         <td>
-            Lista de foros creados por el usuario registrado.
+            Lista de hilos creados por el usuario registrado.
         </td> 
     </tr>
     <tr>
         <td>
-            Lista, List&lt;Producto&gt;
+            Boolean
         </td>
         <td>
-            Lista_deseados
+           	Baneado
         </td>  
         <td>
-            Lista de productos deseados por el usuario.
-        </td> 
-    </tr>
-    <tr>
-        <td>
-            Lista, List&lt;Producto&gt;
-        </td>
-        <td>
-            Historial_Compra
-        </td>  
-        <td>
-            Historial de los productos comprados por el usuario.
+            Campo booleano que indicará si el usuario está baneado o no.
         </td> 
     </tr>
 </table>
@@ -720,7 +786,172 @@
 <table style="width:100%">
     <tr>
         <th>
-            <b>RI-2 Producto </b>
+            <b>RI-2 Ticket </b>
+        </th>
+    </tr>
+    <tr>
+        <td>
+            <b>Autor<b>
+        </td>
+        <td>Equipo</td>  
+    </tr>
+    <tr>
+        <td>
+            <b>Descripción<b>
+        </td>
+        <td>Intermediario entre producto y usuario en el que se guardan todos los productos comprados por el usuario.</td>  
+    </tr>
+    <tr>
+        <td>
+            <b>Tipo de dato<b>
+        </td>
+        <td>
+            <b>Nombre<b>
+        </td>  
+        <td>
+            <b>Descripción<b>
+        </td> 
+    </tr>
+    <tr>
+        <td>
+           Numérico, Integer
+        </td>
+        <td>
+            Id
+        </td>  
+        <td>
+            Identificador del ticket.
+        </td> 
+    </tr>
+    <tr>
+        <td>
+            Date
+        </td>
+        <td>
+            Fecha
+        </td>  
+        <td>
+            Fecha de la compra.
+        </td> 
+    </tr>
+    <tr>
+        <td>
+            Double
+        </td>
+        <td>
+            Importe
+        </td>  
+        <td>
+            Importe por el que ha salido la compra.
+        </td> 
+    </tr>
+    <tr>
+        <td>
+           	Integer
+        </td>
+        <td>
+            Uds
+        </td>  
+        <td>
+            Unidades de producto compradas por usuario.
+        </td> 
+    </tr>
+    <tr>
+        <td>
+            Usuario
+        </td>
+        <td>
+            Usuario
+        </td>  
+        <td>
+            Usuario que compra.
+        </td> 
+    </tr>
+    <tr>
+        <td>
+            Producto
+        </td>
+        <td>
+            Producto
+        </td>  
+        <td>
+            Producto/s comprado.
+        </td> 
+    </tr>
+</table>
+
+<br>
+
+<table style="width:100%">
+    <tr>
+        <th>
+            <b>RI-3 Favoritos </b>
+        </th>
+    </tr>
+    <tr>
+        <td>
+            <b>Autor<b>
+        </td>
+        <td>Equipo</td>  
+    </tr>
+    <tr>
+        <td>
+            <b>Descripción<b>
+        </td>
+        <td>Productos que el usuario añade como favorito.</td>  
+    </tr>
+    <tr>
+        <td>
+            <b>Tipo de dato<b>
+        </td>
+        <td>
+            <b>Nombre<b>
+        </td>  
+        <td>
+            <b>Descripción<b>
+        </td> 
+    </tr>
+    <tr>
+        <td>
+           Numérico, Integer
+        </td>
+        <td>
+            Id
+        </td>  
+        <td>
+            Identificador del producto favorito.
+        </td> 
+    </tr>
+    <tr>
+        <td>
+            Usuario
+        </td>
+        <td>
+            Usuario
+        </td>  
+        <td>
+            Usuario que añade producto a favorito.
+        </td> 
+    </tr>
+    <tr>
+        <td>
+            Producto
+        </td>
+        <td>
+            Producto
+        </td>  
+        <td>
+            Producto/s que ha sido añadido a favorito.
+        </td> 
+    </tr>
+</table>
+
+<br>
+
+<table style="width:100%">
+    <tr>
+        <th>
+            <b>RI-4 Producto </b>
         </th>
     </tr>
     <tr>
@@ -817,10 +1048,10 @@
             Lista, List&lt;Usuario&gt;
         </td>
         <td>
-            Lista_usuarios
+            Lista_tickets
         </td>  
         <td>
-            Lista de usuarios que han comprado el producto.
+            Lista de tickets que tiene un producto.
         </td> 
     </tr>
 </table>
@@ -830,7 +1061,7 @@
 <table style="width:100%">
     <tr>
         <th>
-            <b>RI-3 Hilo </b>
+            <b>RI-5 Hilo </b>
         </th>
     </tr>
     <tr>
@@ -889,17 +1120,6 @@
             Fecha de creación del hilo.
         </td> 
     </tr>
-    <tr>
-        <td>
-           	Numérico, Integer
-        </td>
-        <td>
-            Id_Historial
-        </td>  
-        <td>
-            Identificador del historial del hilo.
-        </td> 
-    </tr>
 </table>
 
 <br>
@@ -907,7 +1127,7 @@
 <table style="width:100%">
     <tr>
         <th>
-            <b>RI-4 Historial </b>
+            <b>RI-6 Mensaje </b>
         </th>
     </tr>
     <tr>
@@ -920,73 +1140,7 @@
         <td>
             <b>Descripción<b>
         </td>
-        <td>Historial de mensajes perteneciente al hilo.</td>  
-    </tr>
-    <tr>
-        <td>
-            <b>Tipo de dato<b>
-        </td>
-        <td>
-            <b>Nombre<b>
-        </td>  
-        <td>
-            <b>Descripción<b>
-        </td> 
-    </tr>
-    <tr>
-        <td>
-           Numérico, Integer
-        </td>
-        <td>
-            Id
-        </td>  
-        <td>
-            Identificador del historial.
-        </td> 
-    </tr>
-    <tr>
-        <td>
-            Lista, List&lt;Mensaje&gt;
-        </td>
-        <td>
-            Mensajes
-        </td>  
-        <td>
-            Mensajes del historial.
-        </td> 
-    </tr>
-    <tr>
-        <td>
-            Numérico, Integer
-        </td>
-        <td>
-            Id_Hilo
-        </td>  
-        <td>
-            Identificador del hilo al que pertenece.
-        </td> 
-    </tr>
-</table>
-
-<br>
-
-<table style="width:100%">
-    <tr>
-        <th>
-            <b>RI-5 Mensaje </b>
-        </th>
-    </tr>
-    <tr>
-        <td>
-            <b>Autor<b>
-        </td>
-        <td>Equipo</td>  
-    </tr>
-    <tr>
-        <td>
-            <b>Descripción<b>
-        </td>
-        <td>Mensaje creado por el usuario para un foro.</td>  
+        <td>Mensaje creado por el usuario para un hilo.</td>  
     </tr>
     <tr>
         <td>
