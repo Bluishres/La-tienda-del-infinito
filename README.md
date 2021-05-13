@@ -98,7 +98,7 @@ Estas funcionalidades extras son:
 
 **[6. Tecnologías de desarrollo.](#)**
 
-**[7. Prototipado de usuario.](#)**
+**[7. Prototipado de usuario.](./prototipado/prototipado.md)**
 
 **[8. Pruebas.](#)**
 
