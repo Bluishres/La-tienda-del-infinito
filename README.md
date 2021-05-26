@@ -88,29 +88,27 @@ Estas funcionalidades extras son:
 
 **[1. Entorno de trabajo.](./entorno/entorno.md)**
 
-**[2. Despliegue de la aplicación.](#)**
+**[2. Análisis de la aplicación.](./analisis/analisis.md)**
 
-**[3. Análisis de la aplicación.](./analisis/analisis.md)**
+**[3. Diseño de la aplicación.](./diseño/diseño.md)**
 
-**[4. Diseño de la aplicación.](./diseño/diseño.md)**
+**[4. Arquitectura de la aplicación.](./arquitectura/arquitectura.md)**
 
-**[5. Arquitectura de la aplicación.](#)**
+**[5. Tecnologías de desarrollo.](./tecnologias/tecnologias.md)**
 
-**[6. Tecnologías de desarrollo.](#)**
+**[6. Prototipado de usuario.](./prototipado/prototipado.md)**
 
-**[7. Prototipado de usuario.](./prototipado/prototipado.md)**
+**[7. Pruebas.](./pruebas/pruebas.md)**
 
-**[8. Pruebas.](#)**
+**[8. Problemas durante el desarrollo.](./problemas/problemas.md)**
 
-**[9. Problemas durante el desarrollo.](#)**
+**[9. Mejoras posibles.](./mejoras/mejoras.md)**
 
-**[10. Mejoras posibles.](#)**
+**[10. Conclusiones.](./conclusiones/conclusiones.md)**
 
-**[11. Conclusiones.](#)**
+**[11. Bibliografía.](./bibliografia/bibliografia.md)**
 
-**[12. Bibliografía.](./bibliografia/bibliografia.md)**
-
-**[13. Manual de Usuario](#)**
+**[12. ANEXOS](./anexos/anexos.md)**
 
 <br>
 

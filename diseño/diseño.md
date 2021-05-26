@@ -2,11 +2,24 @@
 
 ## Índice de contenido
 
-**[1. Modelo de clases del Backend.](#BACKEND)**
+**[1. Introducción.](#INTRO)**
 
-**[2. Modelo de clases del Frontend.](#FRONTEND)**
+**[2. Modelo de clases del Backend.](#BACKEND)**
 
-**[3. Modelo Entidad/Relación.](#E/R)**
+**[3. Modelo de clases del Frontend.](#FRONTEND)**
+
+**[4. Modelo Entidad/Relación.](#E/R)**
+
+<br>
+<a name="INTRO"></a>
+
+## Introducción
+
+En este apartado de **Diseño** se mostrarán tanto los **Diagramas de Clase** (Back y Front) como el **Diagrama Entidad / Relación**.
+
+Por una parte, los Diagramas de Clase vienen acompañados de sus respectivas tablas en los que se explica de forma más detallada cada dato dentro de cada entidad. Hemos querido diferenciar entre **Back** y **Front**, aunque sean los mismos diagramas. Esto se debe a que las funcionalidades son paralelas, iguales, pero a la hora de realizarse son diferentes.
+
+Por último, tenemos el Diagrama Entidad / Relación en el que se muestran como se relacionan cada una de nuestras entidades en el entorno de la Base de Datos.
 
 <a name="BACKEND"></a>
 

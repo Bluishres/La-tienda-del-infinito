@@ -25,7 +25,9 @@
 
 ## Índice de contenido
 
-**[1. Instalación y configuración del entorno para el Frontend](#FRONTEND)**
+**[1. Introducción](#INTRO)**.
+
+**[2. Instalación y configuración del entorno para el Frontend](#FRONTEND)**.
 
 **[&nbsp;&nbsp;&nbsp; - Instalación de Android Studio](#ANDROID)**
 
@@ -35,11 +37,22 @@
 
 **[&nbsp;&nbsp;&nbsp; - Configuración de Android Studio](#CONFANDROID)**
 
-**[2. Instalación y configuración del entorno para el Backend](#BACKEND)**
+**[3. Instalación y configuración del entorno para el Backend.](#BACKEND)**
 
 **[&nbsp;&nbsp;&nbsp; - Instalación de Java 8 SDK](#JAVA)**
 
 **[&nbsp;&nbsp;&nbsp; - Instalación de IntelliJ](#INTELLIJ)**
+
+<br>
+<a name="INTRO"></a>
+
+## Introducción
+
+En este apartado de **Entorno** se explicará detalladamente la instalación y configuración de los diferentes programas, tecnologías que hemos necesitado para desarrollar nuestro Front y Back.
+
+Por la parte del **Front**, hemos necesitado **Android Studio** como el IDE, **Dart** como lenguaje y **Flutter** como tecnología multiplataforma.
+
+Por otra parte, en el **Back** hemos usado **IntelliJ** como IDE y **Java** como lenguaje.
 
   <br>
   <a name="FRONTEND"></a>

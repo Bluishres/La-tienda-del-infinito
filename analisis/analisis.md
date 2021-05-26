@@ -2,11 +2,24 @@
 
 ## Índice de contenido
 
-**[1. Gestión de usuarios.](#USUARIOS)**
+**[1. Introducción.](#INTRO)**
 
-**[2. Gestión de productos.](#PRODUCTOS)**
+**[2. Gestión de usuarios.](#USUARIOS)**
 
-**[3. Gestión de foro.](#FORO)**
+**[3. Gestión de productos.](#PRODUCTOS)**
+
+**[4. Gestión de foro.](#FORO)**
+
+<br>
+<a name="INTRO"></a>
+
+## Introducción
+
+En este apartado de **Análisis** se mostrarán las diferentes gestiones dentro de nuestra aplicación mediante los **Diagramas de Caso de Uso**.
+
+Estos diagramas vienen acompañados de sus respectivas tablas en los que se detallará datos como el **id**, **nombre**, **descripción**, **actores**, **condiciones**, **curso** y **alternativas** de cada caso de uso.
+
+En nuestro caso, tenemos tres gestiones diferentes que son: **Usuarios**, **Productos** y **Foro**.
 
 <br>
 <a name="USUARIOS"></a>
