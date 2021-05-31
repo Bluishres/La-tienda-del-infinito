@@ -6,6 +6,14 @@
 
 **[2. Tecnologías.](#TECNOLOGIAS)**
 
+**[&nbsp;&nbsp;&nbsp; - Flutter](#FLUTTER)**
+
+**[&nbsp;&nbsp;&nbsp; - Spring](#SPRING)**
+
+**[&nbsp;&nbsp;&nbsp; - Spring Boot](#SPRINGBOOT)**
+
+**[&nbsp;&nbsp;&nbsp; - Docker](#DOCKER)**
+
 <br>
 <a name="INTRO"></a>
 
@@ -19,6 +27,8 @@ Tanto a nivel de Back y Front como externo, por ejemplo el Prototipado realizado
 <a name="TECNOLOGIAS"></a>
 
 ## Tecnologías
+
+<a name="FLUTTER"></a>
 
 - **Flutter**
 
@@ -40,6 +50,8 @@ Tanto a nivel de Back y Front como externo, por ejemplo el Prototipado realizado
 
   <br>
 
+  <a name="SPRING"></a>
+
 - **Spring**
 
   Spring como Spring Core es un framework usado para Java con el que podemos crear código de alto rendimiento, elegante y reutilizable gracias a las tecnologías que trae.
@@ -57,13 +69,15 @@ Tanto a nivel de Back y Front como externo, por ejemplo el Prototipado realizado
 
   
 
-  La **Inyección de Depencias** (Dependency Injection) es de lo más importante que trae Spring Core porque hace que la aplicación pase a estar modularizada y por lo tanto, muy independiente. Esto hace que sea fácil de reutilizar y en la fase de testeo fácil de probar cada parte sin tener que implicar a las otras.
+  La **Inyección de Dependencias** (Dependency Injection) es de lo más importante que trae Spring Core porque hace que la aplicación pase a estar modularizada y por lo tanto, muy independiente. Esto hace que sea fácil de reutilizar y en la fase de testeo fácil de probar cada parte sin tener que implicar a las otras.
 
   
 
   Spring es como el framework base de Java ya que da soporte a varios frameworks como: **Hibernate**, JSF, EJB...
 
   <br>
+
+  <a name="SPRINGBOOT"></a>
 
 - **Spring Boot**
 
@@ -102,6 +116,8 @@ Tanto a nivel de Back y Front como externo, por ejemplo el Prototipado realizado
      [Spring Initializr](https://start.spring.io/)
 
      <br>
+     
+     <a name="DOCKER"></a>
 
 - **Docker**
 
