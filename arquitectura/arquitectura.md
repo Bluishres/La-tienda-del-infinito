@@ -29,7 +29,7 @@ No existe una única arquitectura limpia, pero todas ellas se basan en el mismo 
 Una arquitectura limpia se caracteriza por:
 
 - **Independencia de los frameworks**: Los frameworks deberían ser herramientas, y no obligarnos a actuar de una determinada manera debido a sus restricciones.
-- **Aplicaicon testable**: Debemos poder probar nuestras reglas de negocio sin pensar en base de datos, interface gráfica u otros componentes no esenciales de nuestro sistema.
+- **Aplicación testable**: Debemos poder probar nuestras reglas de negocio sin pensar en base de datos, interface gráfica u otros componentes no esenciales de nuestro sistema.
 - **Independencia de la UI**: Si la UI cambia a menudo esto no puede afectar al resto de nuestro sistema, que tiene que ser independiente.
 - **Independencia de la base de datos**: Deberíamos poder cambiar de Oracle, a SQL Server, a MongoDB, a Casandra o a cualquier otra base de datos sin que afectara demasiado a nuestro sistema.
 - **Independencia de cualquier entidad externa**: No deberíamos saber nada de entidades externas, por lo que no deberemos depender de ellas.
