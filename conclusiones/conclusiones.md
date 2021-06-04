@@ -16,6 +16,8 @@ A continuación, comentaremos cada uno nuestra reflexión:
 
   Desde el principio, siempre había pensado en como poder hacer un proyecto que quedara tanto yo satisfecho como los que lo vieran. Ahora que el desarrollo ha finalizado al menos yo he quedado satisfecho tanto con el trabajo realizado y el esfuerzo por parte del profesorado para que aprendiéramos lo máximo. 
 
+  Por último, decir que me encantaría trabajar con Flutter en un futuro y poder desarrollar aún más esa faceta de diseño. Todo esto ha sido gracias al desarrollo efectuado con este proyecto.
+
   <br>
 
 - **Manuel Santos**:
