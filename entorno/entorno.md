@@ -48,11 +48,11 @@
 
 ## Introducción
 
-En este apartado de **Entorno** se explicará detalladamente la instalación y configuración de los diferentes programas, tecnologías que hemos necesitado para desarrollar nuestro Front y Back.
+En este apartado de **Entorno** se explicará detalladamente la instalación y configuración de los diferentes programas, tecnologías que hemos necesitado para desarrollar nuestro Frontend y Backend.
 
-Por la parte del **Front**, hemos necesitado **Android Studio** como el IDE, **Dart** como lenguaje y **Flutter** como tecnología multiplataforma.
+En el **Frontend**, se precisará **Android Studio** como IDE, **Dart** como lenguaje y **Flutter** como tecnología multiplataforma.
 
-Por otra parte, en el **Back** hemos usado **IntelliJ** como IDE y **Java** como lenguaje.
+Por otra parte, en el **Backend** se precisará **IntelliJ** como IDE y **Java** como lenguaje.
 
   <br>
   <a name="FRONTEND"></a>
@@ -65,7 +65,7 @@ Esta explicación está hecha en Windows 10 como sistema operativo.
 
 ### Instalación de Android Studio
 
-Para la instalación del entorno de desarrollo del Frontend, necesitaremos instalar [Android Studio](https://developer.android.com/studio) el cual contendrá también el SDK de Android. Tenéis los enlaces al principio de este apartado.
+Para la instalación del entorno de desarrollo del Frontend, necesitaremos instalar [Android Studio](https://developer.android.com/studio) el cual contendrá también el SDK de Android. Los enlaces se incluyen al principio de este apartado.
 
 <p align="center"><img src=".\resources\android1.PNG" style="width:50%; height:50%;" /></p>
 
@@ -90,15 +90,15 @@ Para la instalación del entorno de desarrollo del Frontend, necesitaremos insta
 
 ### Instalación de Dart SDK
 
-Para la instalación de Dart SDK, primero debemos descargar e instalar Chocolatey. Accederemos a la terminal de Windows como administrador e insertaremos este comando:
+Para la instalación de Dart SDK, descargar e instalar Chocolatey. Acceder a la terminal de Windows como administrador e insertar el siguiente comando:
 
 ```
 @powershell -NoProfile -ExecutionPolicy unrestricted -Command "iex ((new-object net.webclient).DownloadString('https://chocolatey.org/install.ps1'))" && SET PATH=%PATH%;%ALLUSERSPROFILE%chocolateybin
 ```
 
-Una vez termine, reiniciaremos el ordenador para que se termine de instalar.
+Una vez termine, reiniciar el ordenador para que termine de instalar.
 
-Una vez lo tengamos, para instalar Dart SDK bastará con poner en la terminal lo siguiente:
+Una vez listo, para instalar Dart SDK bastará con poner en la terminal lo siguiente:
 
 ```
 choco install dart-sdk
@@ -111,29 +111,29 @@ choco install dart-sdk
 
 ### Instalación de Flutter
 
-Descargaremos Flutter SDK desde este [enlace](https://flutter.dev/docs/get-started/install/windows).
+Descargar Flutter SDK desde este [enlace](https://flutter.dev/docs/get-started/install/windows).
 
 <p align="center"><img src=".\resources\Flutter.PNG" style="width:50%; height:50%;" /></p>
 
-Una vez descargado, descomprimimos el zip en esta ruta (puede ser cualquier otra mientras no tenga que tener privilegios de administrador para acceder): C:\src\flutter\ **Aqui_el_contenido_del_zip_dentro_de_la_carpeta_flutter**
+Una vez descargado, descomprimir el zip en esta ruta (puede ser cualquier otra mientras no tenga que tener privilegios de administrador para acceder): C:\src\flutter\ **Aqui_el_contenido_del_zip_dentro_de_la_carpeta_flutter**
 
-Ahora configuraremos las variables de entorno para añadir Flutter.
+Ahora configurar las variables de entorno para añadir Flutter.
 
-En primer lugar pondremos 'env' en el buscador y le daremos a *Editar las variables de entorno del sistema*: 
+En primer lugar, añadir 'env' en el buscador y hacer clic en *Editar las variables de entorno del sistema*: 
 
 <p align="center"><img src=".\resources\Flutter2.PNG" style="width:50%; height:50%;" /></p>
 
 <p align="center"><img src=".\resources\Flutter3.PNG" style="width:50%; height:50%;" /></p>
 
-Entraremos en *Variables de entorno...* y le daremos en las variables del usuario a editar seleccionando antes *path*
+Clic en *Variables de entorno...* y entrar en las variables del usuario a editar seleccionando antes *path*
 
 <p align="center"><img src=".\resources\Flutter4.PNG" style="width:50%; height:50%;" /></p>
 
-En la pantalla que se nos abre haremos clic en nuevo y añadiremos lo siguiente:
+En la pantalla que se abre dar clic en nuevo y añadir lo siguiente:
 
 <p align="center"><img src=".\resources\Flutter5.PNG" style="width:50%; height:50%;" /></p>
 
-Una vez hecho esto, reiniciamos el terminal si lo teníamos abierto en modo administrador, iremos al directorio donde instalamos flutter y ejecutaremos `flutter doctor` para comprobar que se ha instalado correctamente:
+Tras esto, reiniciar el terminal si está abierto en modo administrador, ir al directorio donde está instalado flutter y ejecutar `flutter doctor` para comprobar que se ha instalado correctamente:
 
 <p align="center"><img src=".\resources\Flutter6.PNG" style="width:50%; height:50%;" /></p>
 
@@ -141,18 +141,18 @@ Una vez hecho esto, reiniciamos el terminal si lo teníamos abierto en modo admi
 
 #### Posible error
 
-Si saliera en amarillo Android toolchain al ejecutar `flutter doctor`, ejecutar `flutter doctor --android-licenses` y luego volver a ejecutar `flutter doctor` para asegurarnos que está todo instalado correctamente.
+Si saliera en amarillo Android toolchain al ejecutar `flutter doctor`, ejecutar `flutter doctor --android-licenses` y luego volver a ejecutar `flutter doctor` para asegurar que está todo instalado correctamente.
 
 <br>
 <a name="CONFANDROID"></a>
 
 ### Configuración de Android Studio
 
-Una vez realizado los pasos previos, abriremos Android Studio y pasaremos a configurar el emulador que usaremos para probar la aplicación.
+Una vez realizado los pasos previos, abrir Android Studio y pasar a configurar el emulador que se usará para probar la aplicación.
 
-En primer lugar, tendréis que activar la virtualización en la bios si no lo teníais ya activada, ya que si no, no funcionará el emulador. En la mayoría de casos suele estar activada por defecto por lo que solo hacerlo en caso de que no os funcione el emulador después de seguir los pasos a continuación.
+En primer lugar, activar la virtualización en la bios si no está ya activada, ya que si no, no funcionará el emulador. En la mayoría de casos suele estar activada por defecto por lo que solo se debe hacer en caso de que no funcione el emulador después de seguir los pasos a continuación.
 
-Una vez iniciado Android Studio, crearemos un nuevo proyecto vacío o abriremos uno que tengamos ya creado para instalar y configurar Dart y Flutter. En este caso crearemos uno nuevo para los que no lo hayan usado nunca:
+Una vez iniciado Android Studio, crear un nuevo proyecto vacío o abrir uno que esté ya creado para instalar y configurar Dart y Flutter. En este caso crear uno nuevo para los que no lo hayan usado nunca:
 
 <p align="center"><img src=".\resources\confAndroid.PNG" style="width:50%; height:50%;" /></p>
 
@@ -160,17 +160,17 @@ Una vez iniciado Android Studio, crearemos un nuevo proyecto vacío o abriremos 
 
 <p align="center"><img src=".\resources\confAndroid3.PNG" style="width:50%; height:50%;" /></p>
 
-Una vez dentro del entorno, iremos al AVD Manager para crear un nuevo dispositivo virtual y seguiremos los pasos a continuación:
+Una vez dentro del entorno, ir al AVD Manager para crear un nuevo dispositivo virtual y seguir los pasos a continuación:
 
 <p align="center"><img src=".\resources\AVDAndroid.PNG" style="width:50%; height:50%;" /></p>
 
 <p align="center"><img src=".\resources\AVDAndroid2.PNG" style="width:50%; height:50%;" /></p>
 
-En este paso, podremos elegir el teléfono que queramos, yo elegí uno con 5,0 pulgadas:
+En este paso, se puede elegir el teléfono que se desee, en el ejemplo se usa uno con 5,0 pulgadas:
 
 <p align="center"><img src=".\resources\AVDAndroid3.PNG" style="width:50%; height:50%;" /></p>
 
-Y para la versión de Android, elegiremos la 11 para testear la app:
+Y para la versión de Android, elegir la 11 para testear la app:
 
 <p align="center"><img src=".\resources\AVDAndroid4.PNG" style="width:50%; height:50%;" /></p>
 
@@ -178,23 +178,23 @@ Y para la versión de Android, elegiremos la 11 para testear la app:
 
 <p align="center"><img src=".\resources\AVDAndroid6.PNG" style="width:50%; height:50%;" /></p>
 
-Para probar que todo ha ido bien y funciona, lo podemos ejecutar dándole clic a play:
+Para probar que todo ha ido bien y funciona, ejecutar haciendo clic en play:
 
 <p align="center"><img src=".\resources\AVDAndroid7.PNG" style="width:50%; height:50%;" /></p>
 
 <p align="center"><img src=".\resources\AVDAndroid8.PNG" style="width:50%; height:50%;" /></p>
 
-Ya tenemos configurado nuestro emulador.<br>A continuación, iremos a *file/settings/plugin* y buscaremos en el Marketplace *Dart* y *Flutter* y los instalaremos:
+Ya está configurado el emulador.<br>A continuación, ir a *file/settings/plugin* y buscar en el Marketplace *Dart* y *Flutter* e instalar:
 
 <p align="center"><img src=".\resources\confAndroid4.PNG" style="width:50%; height:50%;" /></p>
 
 <p align="center"><img src=".\resources\confAndroid5.PNG" style="width:50%; height:50%;" /></p>
 
-Y reiniciaremos una vez instalados dándole clic en Restart IDE para que se terminen de instalar:
+Y reiniciar una vez instalados haciendo clic en Restart IDE para que se terminen de instalar:
 
 <p align="center"><img src=".\resources\confAndroid6.PNG" style="width:50%; height:50%;" /></p>
 
-Ya tendremos el entorno listo para la importación del proyecto.
+Ya estará el entorno listo para la importación del proyecto.
 
 <br>
 <a name="BACKEND"></a>
@@ -207,7 +207,7 @@ Esta explicación está hecha en Windows 10 como sistema operativo.
 
 ### Instalación de Java 8 SDK
 
-Descargaremos [Java 8 SDK](https://www.oracle.com/es/java/technologies/javase/javase-jdk8-downloads.html) desde el siguiente [enlace](https://drive.google.com/file/d/1MxkOd2XeNbZZ-u5yeNbjvSY6PTQw95WE/view?usp=sharing) y lo instalaremos.
+Descargar [Java 8 SDK](https://www.oracle.com/es/java/technologies/javase/javase-jdk8-downloads.html) desde el siguiente [enlace](https://drive.google.com/file/d/1MxkOd2XeNbZZ-u5yeNbjvSY6PTQw95WE/view?usp=sharing) e instalar.
 
 <p align="center"><img src=".\resources\Java.PNG" style="width:50%; height:50%;" /></p>
 
@@ -226,4 +226,4 @@ En nuestro caso, hemos usado IntelliJ Ultimate, pero también valdría la versi�
 
 Simplemente descargar e instalar desde la [página web oficial](https://www.jetbrains.com/es-es/idea/download/#section=windows).
 
-Una vez instalado, importaremos el proyecto.
+Una vez instalado, importar el proyecto.
