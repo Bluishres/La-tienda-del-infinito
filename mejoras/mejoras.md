@@ -6,6 +6,10 @@
 
 **[2. Mejoras.](#MEJORAS)**
 
+[&nbsp;&nbsp;&nbsp; - Frontend](#FRONT)
+
+[&nbsp;&nbsp;&nbsp; - Backend](#BACK)
+
 <br>
 <a name="INTRO"></a>
 
@@ -19,6 +23,12 @@ Una de las ideas más importantes que se ha quedado fuera es la posibilidad de i
 <a name="MEJORAS"></a>
 
 ## Mejoras
+
+<a name="FRONT"></a>
+
+### Frontend
+
+Flutter/Dart ha sido un reto pero una vez que hemos roto esa barrera inicial la curva de aprendizaje ha sido rápida. Pero sin embargo por la falta de tiempo muchas han sido las ideas que no se han podido desarrollar.
 
 - **Apartado de Noticias**
 
@@ -34,6 +44,12 @@ Una de las ideas más importantes que se ha quedado fuera es la posibilidad de i
   
   <br>
   
+  <a name="BACK"></a>
+
+### Backend
+
+Por la parte del Backend es diferente ya que durante el curso hemos trabajado bastante este apartado, pero también por falta de tiempo no hemos podido incluir algunas ideas.
+
 - **Bases de Datos NoSQL - No Relacionales (MongoDB)**
 
   En la versión actual del proyecto se ha usado una base de datos relacional (**MySQL**). Estaría bien como una mejora de futuro usar una base de datos como **MongoDB**.
