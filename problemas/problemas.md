@@ -24,7 +24,9 @@ Debido a lo anterior, nos lleva a dividir este apartado en problemas en el Back 
 
 ## Problemas referentes al Back
 
+En cuanto al backend, gracias al trabajo realizado en el ciclo y en la empresa, no hemos encontrado muchos problemas a destacar en esta parte. Sin embargo, podríamos nombrar la configuración de la instancia en AWS para la inclusión del backend en la nube. En el curso habíamos creado e incluso trabajado sobre instancias en AWS, pero nunca habíamos configurado una para la inclusión de una aplicación con su base de datos.
 
+Nos tuvimos que informar e investigar bien para incluirlo de la mejor manera y así cumplir uno de nuestros objetivos extras, que era la inclusión de toda nuestra aplicación en la nube.
 
 <br>
 <a name="PROB-FRONT"></a>
