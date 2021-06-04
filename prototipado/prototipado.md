@@ -2,7 +2,13 @@
 
 ## Introducción
 
-En este apartado hablamos sobre los diferentes prototipos de la interfaz de la aplicación en su versión más preliminar. Son diseños que como su propio nombre indica, a lo largo del desarrollo cambian mucho hasta llegar a su versión final en la fase de despliegue. A continuación, se explican las diferentes vistas en diferentes escenarios.
+En este apartado hablamos sobre los diferentes prototipos de la interfaz de la aplicación en su versión más preliminar. Son diseños que como su propio nombre indica, a lo largo del desarrollo cambian mucho hasta llegar a su versión final en la fase de despliegue. Hemos usado Adobe XD para la creación de los prototipos.
+
+**Adobe XD** (Adobe Experience Design) es una herramienta de edición gráfica que sirve para la creación de interfaces. Se trata de un programa dedicado de manera íntegra y profesional al diseño y prototipado de aplicaciones multiplataforma.
+
+Para conseguir una buena eficiencia en la creación de las pantallas que más tarde ve el usuario, es importante trabajar con, por ejemplo, Adobe XD. Este programa es muy intuitivo, por lo que es muy fácil y visual de ver y de usar. Gracias a Adobe XD se puede tener unos prototipos sin apenas coste y tiempo malgastado.
+
+A continuación, se explican las diferentes vistas en diferentes escenarios.
 
 <br>
 
