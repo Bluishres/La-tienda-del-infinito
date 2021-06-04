@@ -19,7 +19,7 @@
 
 ## Introducción
 
-En este apartado de **Tecnologías de desarrollo** expondremos las diferentes tecnologías y herramientas usadas en nuestro proyecto.
+En este apartado de **Tecnologías de desarrollo** exponemos las diferentes tecnologías y herramientas usadas en nuestro proyecto.
 
 Tanto a nivel de Back y Front como externo, por ejemplo el Prototipado realizado con **Adobe XD**.
 
@@ -54,7 +54,8 @@ Tanto a nivel de Back y Front como externo, por ejemplo el Prototipado realizado
 
 - **Spring**
 
-  Spring como Spring Core es un framework usado para Java con el que podemos crear código de alto rendimiento, elegante y reutilizable gracias a las tecnologías que trae.
+  Spring es el framework más conocido y usado del ecosistema Java. Está compuesto de muchos módulos, que le confieren modularidad y facilitan su actualización.
+  Spring Core es su módulo principal que contiene los elementos principales para un uso básico de Spring.
 
   
 
@@ -81,9 +82,7 @@ Tanto a nivel de Back y Front como externo, por ejemplo el Prototipado realizado
 
 - **Spring Boot**
 
-  Spring Boot es una tecnología que se encuentra dentro del propio Spring Core.
-
-  Una de las cosas por la que existe Spring Boot es que Spring tal cual tenía una configuración inicial muy pesada. 
+  Spring Boot es una de las tecnologías dentro del mundo de Spring más utilizadas en la actualidad. Spring Boot nació con la intención de facilitar un rápido inicio de proyectos y solucionar principalmente los problemas con la gestión de dependencias y la configuración (aplicando el principio convención sobre configuración), lo que permite aplicar en la gran mayoría de las ocasiones una “autoconfiguración”. 
 
   
 
@@ -118,7 +117,7 @@ Tanto a nivel de Back y Front como externo, por ejemplo el Prototipado realizado
      <br>
      
      <a name="DOCKER"></a>
-
+  
 - **Docker**
 
   Docker es una plataforma de software que le permite crear, probar e implementar aplicaciones rápidamente. Docker empaqueta software en unidades estandarizadas llamadas contenedores que incluyen todo lo necesario para que el software se ejecute, incluidas bibliotecas, herramientas de sistema, código y tiempo de ejecución. Con Docker, puede implementar y ajustar la escala de aplicaciones rápidamente en cualquier entorno con la certeza de saber que su código se ejecutará.

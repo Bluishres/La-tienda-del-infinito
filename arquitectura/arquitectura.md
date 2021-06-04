@@ -13,9 +13,9 @@
 
 ## Introducción
 
-En este apartado de **Arquitectura** explicaremos la estructura principal del proyecto y como está conformado.
+En este apartado de **Arquitectura** explicamos la estructura principal del proyecto y como está conformado.
 
-Se hablará sobre la **Arquitectura Limpia** usada en el Back ya que es una nueva arquitectura aprendida y que adapta las mismas ideas que la principalmente usada por nosotros **Modelo - Vista - Controlador (MVC)**.
+Se habla sobre la **Arquitectura Limpia** usada en el Back ya que es una nueva arquitectura aprendida y que adapta las mismas ideas que la principalmente usada por nosotros **Modelo - Vista - Controlador (MVC)**.
 
 <br>
 <a name="ARQUITECTURA_LIMPIA"></a>

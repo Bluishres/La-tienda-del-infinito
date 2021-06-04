@@ -15,9 +15,9 @@
 
 ## Introducción
 
-En este apartado de **Diseño** se mostrarán tanto los **Diagramas de Clase** (Back y Front) como el **Diagrama Entidad / Relación**.
+En este apartado de **Diseño** se muestran tanto los **Diagramas de Clase** (Back y Front) como el **Diagrama Entidad / Relación**.
 
-Por una parte, los Diagramas de Clase vienen acompañados de sus respectivas tablas en los que se explica de forma más detallada cada dato dentro de cada entidad. Hemos querido diferenciar entre **Back** y **Front**, aunque sean los mismos diagramas. Esto se debe a que las funcionalidades son paralelas, iguales, pero a la hora de realizarse son diferentes.
+Por una parte, los Diagramas de Clase vienen acompañados de sus respectivas tablas en los que se explica de forma más detallada cada dato dentro de cada entidad. Hemos querido diferenciar entre **Back** y **Front**, aunque sean los mismos diagramas. Esto se debe a que las funcionalidades son paralelas, iguales.. Sin embargo, no siempre es así pues el Frontend puede tener su propia forma de agrupar información independientemente de la suministrada por el Backend.
 
 Por último, tenemos el Diagrama Entidad / Relación en el que se muestran como se relacionan cada una de nuestras entidades en el entorno de la Base de Datos.
 

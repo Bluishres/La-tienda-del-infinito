@@ -13,7 +13,7 @@
 
 ## Introducción
 
-En este apartado de **Problemas** comentaremos de forma general que problemas u obstáculos se nos han presentado a la hora de realizar el proyecto.
+En este apartado de **Problemas** comentamos de forma general que problemas u obstáculos se nos han presentado a la hora de realizar el proyecto.
 
 Aunque nuestro proyecto haya tenido una parte de investigación por la parte del Front con Flutter, en general nuestro proyecto es de desarrollo ya que hemos puesto en práctica muchas de las cosas aprendidas en el curso.
 

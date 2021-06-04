@@ -15,7 +15,7 @@
 
 En este apartado de **Anexos** podréis encontrar tanto el **Despliegue de la aplicación** como un **Manual de Usuario**.
 
-En el anexo de Despliegue se explicará como realizar, una vez lanzada la aplicación, el despliegue.
+En el anexo de Despliegue se explica como realizar, una vez lanzada la aplicación, el despliegue.
 
 En el anexo de Manual de Usuario podéis ver un pequeño vídeo de como un usuario puede llegar a usar nuestra aplicación.
 

@@ -15,9 +15,9 @@
 
 ## Introducción
 
-En este apartado de **Análisis** se mostrarán las diferentes gestiones dentro de nuestra aplicación mediante los **Diagramas de Caso de Uso**.
+En este apartado de **Análisis** se muestran las diferentes gestiones dentro de nuestra aplicación mediante los **Diagramas de Caso de Uso**.
 
-Estos diagramas vienen acompañados de sus respectivas tablas en los que se detallará datos como el **id**, **nombre**, **descripción**, **actores**, **condiciones**, **curso** y **alternativas** de cada caso de uso.
+Estos diagramas vienen acompañados de sus respectivas tablas en los que se detalla datos como el **id**, **nombre**, **descripción**, **actores**, **condiciones**, **curso** y **alternativas** de cada caso de uso.
 
 En nuestro caso, tenemos tres gestiones diferentes que son: **Usuarios**, **Productos** y **Foro**.
 

@@ -17,9 +17,9 @@
 
 ## Introducción
 
-En este apartado de **Pruebas** se mostrarán todos los tests a nivel de Backend. Se podrá comprobar como dentro de la Arquitectura Limpia cada nivel tiene su tipo de Test.
+En este apartado de **Pruebas** se muestran todos los tests a nivel de Backend. Se puede comprobar como dentro de la Arquitectura Limpia cada nivel tiene su tipo de Test.
 
-Por lo que, se probará que cada funcionalidad funciona correctamente a través de estas pruebas.
+Por lo que, se prueba que cada funcionalidad funciona correctamente a través de estas pruebas.
 
 <br>
 <a name="PRUEBASUNITARIAS"></a>

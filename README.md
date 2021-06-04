@@ -2,6 +2,36 @@
 
 <p align="center"><img src=".\resources\LA TIENDA DEL INFINITO v2.png" style="" /></p>
 
+<br>
+
+## Índice de contenido
+
+**[1. Entorno de trabajo.](./entorno/entorno.md)**
+
+**[2. Análisis de la aplicación.](./analisis/analisis.md)**
+
+**[3. Diseño de la aplicación.](./diseño/diseño.md)**
+
+**[4. Arquitectura de la aplicación.](./arquitectura/arquitectura.md)**
+
+**[5. Tecnologías de desarrollo.](./tecnologias/tecnologias.md)**
+
+**[6. Prototipado de usuario.](./prototipado/prototipado.md)**
+
+**[7. Pruebas.](./pruebas/pruebas.md)**
+
+**[8. Problemas durante el desarrollo.](./problemas/problemas.md)**
+
+**[9. Mejoras posibles.](./mejoras/mejoras.md)**
+
+**[10. Conclusiones.](./conclusiones/conclusiones.md)**
+
+**[11. Bibliografía.](./bibliografia/bibliografia.md)**
+
+**[12. ANEXOS](./anexos/anexos.md)**
+
+<br>
+
 ### Autores
 
 Este proyecto ha sido desarrollado por <b>Manuel Santos Pérez</b> y <b>José Antonio Busto Campos</b>  con licencia Creative Commons: <img src="Licencia_Creative.png" height="25" width="75"/>  .
@@ -80,35 +110,6 @@ Estas funcionalidades extras son:
 
 - Realizar el prototipado de la interfaces del Frontend utilizando la herramienta Adobe XD.
 
-  <br>
-
-
-
-## Índice de contenido
-
-**[1. Entorno de trabajo.](./entorno/entorno.md)**
-
-**[2. Análisis de la aplicación.](./analisis/analisis.md)**
-
-**[3. Diseño de la aplicación.](./diseño/diseño.md)**
-
-**[4. Arquitectura de la aplicación.](./arquitectura/arquitectura.md)**
-
-**[5. Tecnologías de desarrollo.](./tecnologias/tecnologias.md)**
-
-**[6. Prototipado de usuario.](./prototipado/prototipado.md)**
-
-**[7. Pruebas.](./pruebas/pruebas.md)**
-
-**[8. Problemas durante el desarrollo.](./problemas/problemas.md)**
-
-**[9. Mejoras posibles.](./mejoras/mejoras.md)**
-
-**[10. Conclusiones.](./conclusiones/conclusiones.md)**
-
-**[11. Bibliografía.](./bibliografia/bibliografia.md)**
-
-**[12. ANEXOS](./anexos/anexos.md)**
 
 <br>
 
