@@ -8,7 +8,7 @@ En este apartado hablamos sobre los diferentes prototipos de la interfaz de la a
 
 Para conseguir una buena eficiencia en la creación de las pantallas que más tarde ve el usuario, es importante trabajar con, por ejemplo, Adobe XD. Este programa es muy intuitivo, por lo que es muy fácil y visual de ver y de usar. Gracias a Adobe XD se puede tener unos prototipos sin apenas coste y tiempo malgastado.
 
-A continuación, se explican las diferentes vistas en diferentes escenarios.
+En este apartado de la documentación, se muestran y explican las diferentes vistas de la aplicación en diferentes escenarios.
 
 <br>
 
