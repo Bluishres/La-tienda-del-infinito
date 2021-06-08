@@ -12,10 +12,14 @@
   - Backend: [Java SE Development Kit 8](https://www.oracle.com/es/java/technologies/javase/javase-jdk8-downloads.html).
   - Frontend: [Dart SDK 2.0.4](https://dart.dev/get-dart), [Android SDK](https://developer.android.com/studio), [Flutter](https://flutter.dev/docs/get-started/install/windows).
   
-- **Control de versiones**: En este proyecto se usará GitHub como sistema de control de versiones. Estará distribuido a través de 3 repositorios, que son:
-  1. **Repositorio principal**: Este repositorio tendrá 2 ramas, en la principal estarán los enlaces a los otros 2 repositorios, y en otra rama contendrá toda la documentación sobre el proyecto.
-  2. **Repositorio de Frontend**: En este repositorio estará alojado el proyecto de Frontend.
-  3. **Repositorio de Backend**: En este repositorio estará alojado el proyecto de Backend.
+- **Control de versiones**: En este proyecto se usará GitHub como sistema de control de versiones. Está distribuido a través de 3 repositorios, que son:
+  1. **Repositorio principal**: Este repositorio tiene 2 ramas, en la principal está los enlaces a los otros 2 repositorios, y en otra rama contiene toda la documentación sobre el proyecto.
+  2. **Repositorio de Frontend**: En este repositorio está alojado el proyecto de Frontend.
+  3. **Repositorio de Backend**: En este repositorio está alojado el proyecto de Backend, el cual tiene 2 ramas:
+  
+      - Rama dev: rama de desarrollo.
+      - Rama master: rama de produccion conectada a DockerHub con integracion continua hacia el servidor de AWS.
+      
   
 - **Arquitectura**: Se usará la Arquitectura Limpia por capas en ambos proyectos. ([Clean Architecture](https://www.genbeta.com/desarrollo/principios-de-una-arquitectura-limpia-mantenible-y-testeable)).
 
