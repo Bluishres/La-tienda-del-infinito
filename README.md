@@ -11,3 +11,7 @@
 ## Documentación
 
 [Documentación](https://github.com/Bluishres/La-tienda-del-infinito/tree/Documentacion)
+
+## PDF
+
+[Descargar PDF](https://drive.google.com/file/d/1sjOvZKbyFMabiwspoqugEEWjMyLjskwR/view?usp=sharing)
