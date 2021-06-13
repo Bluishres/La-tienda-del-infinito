@@ -308,6 +308,6 @@ Una vez configurado todo, ya tendremos nuestra aplicación lista. Con el siguien
 
 ## ANEXO II: Manual de Usuario
 
-
+[Manual de Usuario](https://drive.google.com/file/d/1MXhvVPAV2vwQoFKiM7TPPl8LumhCPBOR/view?usp=sharing)
 
 <br>
