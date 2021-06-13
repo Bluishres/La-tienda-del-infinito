@@ -118,7 +118,7 @@ Una vez hecho eso, crearemos en el apartado de EC2 nuestra instancia, la única 
 
 * Debemos configurar los puertos 8080 y 3306 de MySQL en la instancia (o cualquier otro puerto que se vaya a utilizar) para que sea accesible.
 
-<img src=".\resources\aws5.PNG" style="zoom:38%;" />
+<p align="center"><img src=".\resources\aws5.PNG" width="800" /></p>
 
 * En este caso, podemos generar las claves en AWS, descargarlas (tendremos uno publico y privado), y usarlas para la conexión con la instancia por terminal.
 
@@ -132,17 +132,17 @@ Para transferir archivos y conectados a la instancia, hemos usado [WinSCP](https
 
 Solamente introducir la ip o dns publicos, usuario 'ubuntu' y en 'Avanzado'/'Autentificación' examinar nuestra clave privada para que pueda conectarse:
 
-<img src=".\resources\aws8.PNG" style="zoom:38%;" />
+<p align="center"><img src=".\resources\aws8.PNG" width="700" /></p>
 
-<img src=".\resources\aws9.PNG" style="zoom:38%;" />
+<p align="center"><img src=".\resources\aws9.PNG" width="700" /></p>
 
 Una vez listo, haremos clic en la consola de Putty e instalaremos Docker y Docker-compose, previamente haciendo `sudo apt update`:
 
 <img src=".\resources\aws10.PNG" style="zoom:38%;" />
 
-<img src=".\resources\aws11.PNG" style="zoom:38%;" />
+<p align="center"><img src=".\resources\aws11.PNG" width="700" /></p>
 
-<img src=".\resources\aws12.PNG" style="zoom:38%;" />
+<p align="center"><img src=".\resources\aws12.PNG" width="700" /></p>
 
 Terminada la instalación, hay que crear el Docker-compose.yml donde indicaremos que contenedores utilizará la instancia y subirlo a la instancia, este es el ejemplo de este proyecto:
 
@@ -269,9 +269,9 @@ Iremos al apartado de Triggers y seleccionaremos la rama o ramas que queremos qu
 
 Terminado esto, iremos al apartado de Workflows y añadiremos Flutter build después de Flutter Analyze y Firebase App Distribution al final para la distribucion a nuestros testers. A continuación podéis ver los proceso que realiza Bitrise:
 
-<img src=".\resources\bitrise15.PNG" style="zoom:38%;" />
+<p align="center"><img src=".\resources\bitrise15.PNG" width="300" /></p>
 
-<img src=".\resources\bitrise23.PNG" style="zoom:38%;" />
+<p align="center"><img src=".\resources\bitrise23.PNG" width="300" /></p>
 
 Ahora configuraremos el apartado de Firebase para que pueda acceder a nuestra cuenta.
 
